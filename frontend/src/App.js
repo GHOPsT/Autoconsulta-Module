@@ -8,21 +8,6 @@ import Login from './components/Autoregistro/Login/Login';
 import Register from './components/Autoregistro/Register/Register';
 import Dashboard from './components/Autoregistro/Dashboard/Dashboard';
 
-const router = createBrowserRouter([
-  {
-    path: '/login',
-    element: <div><Login/></div>
-  },
-  {
-    path: '/register',
-    element: <div><Register/></div>
-  },
-  {
-    path: '/dashborad',
-    element: <div><Dashboard/></div>
-  }
-])
-
 function App() {
   return (
     // uso del BrowserRouter para habilitar el enrutamiento de la aplicación
@@ -36,12 +21,6 @@ function App() {
         <Route path="/LandingPageFooter" element={<Footer/>} />
       </Routes>
     </BrowserRouter>
-    <div className="App">
-      <AppBar/>
-      <ScreenMain/>
-      <AdPanels/>
-      <Footer/>
-    </div>
   );
 }
 
