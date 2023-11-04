@@ -11,16 +11,18 @@ import Dashboard from './components/Autoregistro/Dashboard/Dashboard';
 function App() {
   return (
     // uso del BrowserRouter para habilitar el enrutamiento de la aplicación
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Login/> }/>
-        <Route path="/Register" element={<Register/>}/>
-        <Route path="/LandingPageAppBar" element={<AppBar/>} />
-        <Route path="/LandingPageScreenMain" element={<ScreenMain/>} />
-        <Route path="/LandingPageAdPanels" element={<AdPanels/>} />
-        <Route path="/LandingPageFooter" element={<Footer/>} />
-      </Routes>
-    </BrowserRouter>
+    <div className='App'>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login/> }/>
+          <Route path="/Register" element={<Register/>}/>
+          <Route path="/LandingPageAppBar" element={<AppBar/>} />
+          <Route path="/LandingPageScreenMain" element={<ScreenMain/>} />
+          <Route path="/LandingPageAdPanels" element={<AdPanels/>} />
+          <Route path="/LandingPageFooter" element={<Footer/>} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
