@@ -1,7 +1,7 @@
 import React , {useState} from 'react'
 import './App.css';
 
-import { Button, Layout , theme } from 'antd';
+import { Button, Layout , theme , FloatButton} from 'antd';
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 
 import Sidebar from './components/LandingPage/Sidebar/Sidebar';
@@ -57,23 +57,24 @@ function App() {
                           justifyContent: 'space-between', 
                           alignItems: 'center' , 
                           height: '40px'}}>
-            <Button type='text' 
-                      className='toggle'
-                      onClick={()=> setCollapsed(!collapsed)}
-                      icon={collapsed ? <MenuUnfoldOutlined/> : <MenuFoldOutlined/>}/>
-                <div style={{ display : 'flex' }}>
-                  <Button type='text'
-                          className='notification-button'
-                          icon={<BellOutlined />}  style={{ marginLeft: '10px' }} />
+           <Button type='text' className='toggle'
+                    icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+                    onClick={() => setCollapsed(!collapsed)}
+             />
+              <Button type='text'
+                      className='setting-button'
+                      icon={<SettingOutlined />}/>
+              <FloatButton.BackTop />
 
-                  <Button type='text'
-                          className='setting-button'
-                          icon={<SettingOutlined />} style={{ marginRight: '10px' }}/>
-
-                </div>
           </Header>
                         
-          <Content>
+          <Content 
+              style = {{
+              margin: '24px 16px',
+              padding: 24,
+              minHeight: 280,
+              background: 'white',
+            }}>
             <Routes>
                {/* Colocar las rutas aqui */}
               <Route path = '/dashboard' element = {<Dashboard/>} />
@@ -82,6 +83,7 @@ function App() {
 
             </Routes>
           </Content>
+          <Footer style={{ textAlign: 'center' }}>Empresa Telefónica ©2023 </Footer>
         </Layout>
       </Layout>
     </Router>

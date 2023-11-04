@@ -16,9 +16,9 @@ const Login = () => {
 
                 <div className='footerLogin flex'>
                     <span className='text'>¿No tienes una cuenta?</span>
-                    <link to={'/register'}>
+                    <Link to={'/register'}>
                     <button className='btn'>Registrate</button>
-                    </link>
+                    </Link>
                 </div>
             </div>
         </div>
