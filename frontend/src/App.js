@@ -1,5 +1,5 @@
 import './App.css';
-import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import AppBar from "./components/LandingPage/AppBar"
 import ScreenMain from "./components/LandingPage/ScreenMain"
 import AdPanels from "./components/LandingPage/AdPanels"
@@ -25,6 +25,17 @@ const router = createBrowserRouter([
 
 function App() {
   return (
+    // uso del BrowserRouter para habilitar el enrutamiento de la aplicación
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login/> }/>
+        <Route path="/Register" element={<Register/>}/>
+        <Route path="/LandingPageAppBar" element={<AppBar/>} />
+        <Route path="/LandingPageScreenMain" element={<ScreenMain/>} />
+        <Route path="/LandingPageAdPanels" element={<AdPanels/>} />
+        <Route path="/LandingPageFooter" element={<Footer/>} />
+      </Routes>
+    </BrowserRouter>
     <div className="App">
       <AppBar/>
       <ScreenMain/>
