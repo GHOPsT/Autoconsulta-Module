@@ -1,9 +1,9 @@
 import React from 'react'
-import './login.css'
+import '../Login/login.css'
 
 import {Button , Checkbox , Form , Input } from 'antd'
 
-import logo from '../../../images/imagenLogin.jpg'
+import logo from '../../../images/imagenRegister.jpg'
 
 import { Link } from 'react-router-dom'
 
@@ -21,7 +21,7 @@ const onFinishFailed = (errorInfo) => {
 
 
 
-const Login = () => {
+const Register = () => {
 
     const [form] = Form.useForm()
   return (
@@ -32,10 +32,11 @@ const Login = () => {
                 <div className="formDiv flex">
                     <div className="headerDiv">
                         <FcSimCard />
-                        <h3>Iniciar sesión</h3>
-                        <span className='text'>¿No posees una cuenta?</span>
                         
-                        <Button type="link"><Link to="/register">Registrarse</Link></Button>
+                        <h3>Crear cuenta</h3>
+                        <span className='text'>¿Ya posee una cuenta?</span>
+                        
+                        <Button type="link"><Link to="/">Ingresar</Link></Button>
                     </div>
 
                     <Form
@@ -60,14 +61,9 @@ const Login = () => {
                             <Input.Password placeholder="Ingrese Contraseña" />
                         </Form.Item>
 
-                        <Form.Item name="remember" valuePropName="checked">
-                            <Checkbox>Recuerdame</Checkbox>
-                        </Form.Item>
-
-
                         <Form.Item>
                             <Button type="primary" htmlType="submit" block>
-                            Ingresar
+                            Registrarse
                             </Button>
                         </Form.Item>
 
@@ -87,4 +83,4 @@ const Login = () => {
    )
 }
 
-export default Login
+export default Register
