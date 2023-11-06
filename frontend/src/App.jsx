@@ -47,8 +47,8 @@ function App() {
     <Router>
       <Routes>
         <Route path = '/' element={<Login  />} />
-        <Route path = '/register' element={<Register  />} />
-        <Route path = '/dashboard' element={
+        <Route path = '/register' element={<Register />} />
+      </Routes>
 
         
         <Layout>
@@ -89,13 +89,9 @@ function App() {
                 minHeight: 280,
                 background: 'white',
               }}>
+              
               <Routes>
                 {/* Colocar las rutas aqui */}
-                
-                {/* Inicio */}
-                <Route path = '/' element = {<Login /> } />
-                
-                {/* Despues del Inicio */}
                 <Route path = '/dashboard' element = {<Dashboard/>} />
                 <Route path = '/solicitudes' element = {<Solicitudes/>} />
 
@@ -106,9 +102,7 @@ function App() {
           
             </Layout>
         </Layout>
-        }
-        />
-      </Routes>
+        
 
     </Router>
   );

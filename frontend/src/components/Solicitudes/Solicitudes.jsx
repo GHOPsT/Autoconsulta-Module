@@ -32,7 +32,7 @@ const Solicitudes = () => {
             <h1>Contenido del componente Reclamos</h1>
             <h2>Tabla de Reclamos</h2>
 
-            <table {...getTableProps ()}>
+            {/* <table {...getTableProps ()}>
                 <thead>
                     {headerGroups.map((headerGroup) => (
                         <tr {...headerGroup.getHeaderGroupProps()}>
@@ -56,7 +56,7 @@ const Solicitudes = () => {
                     )
                 })}
                 </tbody>
-            </table>
+            </table> */}
 
         </div>
     )
