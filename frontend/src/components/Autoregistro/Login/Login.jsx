@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './login.css'
+import '../Login/Login.css'
 import { Button, Checkbox, Form, Input } from 'antd'
 import logo from '../../../images/imagenLogin.jpg'
 import { FcSimCard } from 'react-icons/fc'
