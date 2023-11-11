@@ -17,7 +17,7 @@ const onFinishFailed = (errorInfo) => {
     console.log('Failed: ' , errorInfo)
 }
 
-const RegisterUser = async(values) => {
+const buscarPorDNI = async(values) => {
     try {
         console.log(values)
         const DNI = 987654321
@@ -26,6 +26,18 @@ const RegisterUser = async(values) => {
         console.log(respuesta.data.apellido)
     } catch(e) {
         console.log(e)
+    }
+}
+
+const RegisterUser = async (values) => {
+    try {
+        console.log(values)
+        const usuarioNuevo = {validar: values.validar, usuario: values.nombreUsuario, contrasenia: values.contrasenia};        
+        const url = "http://localhost:3002/registro"
+        const respuesta = await axios.post(url, usuarioNuevo)
+        console.log('Usuario registrado con éxito:', respuesta)
+    } catch(error) {
+        console.error('Error al registrar el usuario:', error)
     }
 }
 
@@ -56,16 +68,15 @@ const Register = () => {
                         onFinish={RegisterUser}
                         onFinishFailed={onFinishFailed}
                     >
+                        <Form.Item label="DNI" name="DNI" rules={[{required: true, message: 'Por favor, ingrese su DNI' }]}>
+                            <Input placeholder='Ingrese DNI' />
+                        </Form.Item>
+
                         <Form.Item label="Usuario" name="usuario" rules={[{ required: true, message: 'Por favor, ingrese su usuario' }]}>
                             <Input placeholder="Ingrese Usuario" />
                         </Form.Item>
 
-                        <Form.Item
-                            label="Contraseña"
-                            name="contrasena"
-                            rules={[{ required: true, message: 'Por favor, ingrese su contraseña' }]
-                            }
-                        >
+                        <Form.Item label="Contraseña" name="contrasena" rules={[{ required: true, message: 'Por favor, ingrese su contraseña' }]}>
                             <Input.Password placeholder="Ingrese Contraseña" />
                         </Form.Item>
 
@@ -74,20 +85,14 @@ const Register = () => {
                             Registrarse
                             </Button>
                         </Form.Item>
-
-                        
                     </Form>
                 </div>
                 
                 <div className='imagenDiv'>
                     <img src = {logo} alt='Logo'/>
                 </div>
-
-           
         </div>
     </div>
-    
-
    )
 }
 
