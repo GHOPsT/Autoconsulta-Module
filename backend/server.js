@@ -1,17 +1,26 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
+const cors = require('cors')
 
 const app = express();
+app.disable("x-powered-by")
+const corsOptions = {
+    origin: '*',
+    allowedHeaders: ['Content-Type'],
+    credentials: true,
+};
+
 const port = 3001;
 
 app.use(bodyParser.json());
+app.use(cors(corsOptions))
 
 const db = mysql.createConnection({
-  host: 'tu_host',
-  user: 'tu_usuario',
-  password: 'tu_contraseña',
-  database: 'tu_base_de_datos',
+  host: 'localhost',
+  user: 'root',
+  password: '123456',
+  database: 'autoconsultadb',
 });
 
 app.post('/registro', (req, res) => {

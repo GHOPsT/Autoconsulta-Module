@@ -7,6 +7,7 @@ import logo from '../../../images/imagenRegister.jpg'
 import { Link } from 'react-router-dom'
 
 import {FcSimCard} from 'react-icons/fc'
+import axios from 'axios'
 
 // Informacion para la consola al ingresar los datos
 const onFinish = (values) => {
@@ -14,6 +15,18 @@ const onFinish = (values) => {
 }
 const onFinishFailed = (errorInfo) => {
     console.log('Failed: ' , errorInfo)
+}
+
+const RegisterUser = async(values) => {
+    try {
+        console.log(values)
+        const DNI = 987654321
+        const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${DNI}`
+        const respuesta = await axios.get(url)
+        console.log(respuesta.data.apellido)
+    } catch(e) {
+        console.log(e)
+    }
 }
 
 const Register = () => {
@@ -40,7 +53,7 @@ const Register = () => {
                         initialValues={{
                             requiredMarkValue: 'optional',
                         }}
-                        onFinish={onFinish}
+                        onFinish={RegisterUser}
                         onFinishFailed={onFinishFailed}
                     >
                         <Form.Item label="Usuario" name="usuario" rules={[{ required: true, message: 'Por favor, ingrese su usuario' }]}>
@@ -57,7 +70,7 @@ const Register = () => {
                         </Form.Item>
 
                         <Form.Item>
-                            <Button type="primary" htmlType="submit" block>
+                            <Button type="primary" htmlType="submit" block onClick={RegisterUser}>
                             Registrarse
                             </Button>
                         </Form.Item>
