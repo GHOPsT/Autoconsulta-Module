@@ -1,32 +1,31 @@
-CREATE DATABASE AutoconsultaBD;
-USE AutoconsultaBD;
-CREATE TABLE Usuarios (
-    id_usuario INT PRIMARY KEY AUTO_INCREMENT,
-    usuario VARCHAR(50) UNIQUE NOT NULL,
-    contrasena VARCHAR(50) NOT NULL
+CREATE DATABASE autoconsultadb;
+CREATE TABLE users (
+    usuario VARCHAR(50),
+    contrasenia VARCHAR(50) UNIQUE,
+    validar INT PRIMARY KEY
 );
-CREATE TABLE DatosUsuariosPJ (
-    ruc VARCHAR(15) PRIMARY KEY,
-    empresa VARCHAR(100) NOT NULL,
-    relegal VARCHAR(50) NOT NULL,
-    correo VARCHAR(50) NOT NULL,
-    direccion VARCHAR(255) NOT NULL,
-    departamento VARCHAR(50),
-    provincia VARCHAR(50),
-    distrito VARCHAR(50),
-    id_persona INT,
-    FOREIGN KEY (id_persona) REFERENCES Usuarios(id_usuario)
-);
-CREATE TABLE DatosUsuariosPN (
-    dni VARCHAR(15) PRIMARY KEY,
-    nombre VARCHAR(50) NOT NULL,
-    apellido VARCHAR(50) NOT NULL,
+CREATE TABLE data_user_pn (
+    dni INT PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellido VARCHAR(50),
     fechan DATE,
-    telefono VARCHAR(15),
-    correo VARCHAR(50) NOT NULL,
+    telefono INT,
+    correo VARCHAR(50),
     departamento VARCHAR(50),
     provincia VARCHAR(50),
     distrito VARCHAR(50),
-    id_persona INT,
-    FOREIGN KEY (id_persona) REFERENCES Usuarios(id_usuario)
+    validar INT,
+    FOREIGN KEY (validar) REFERENCES users(validar)
+);
+CREATE TABLE data_user_pj (
+    ruc INT PRIMARY KEY,
+    empresa VARCHAR(100),
+    relegal VARCHAR(100),
+    correo VARCHAR(50),
+    direccion VARCHAR(255),
+    departamento VARCHAR(50),
+    provincia VARCHAR(50),
+    distrito VARCHAR(50),
+    validar INT,
+    FOREIGN KEY (validar) REFERENCES users(validar)
 );
