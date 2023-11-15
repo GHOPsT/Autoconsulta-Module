@@ -1,24 +1,25 @@
-import logo from "../../images/logo.svg";
+
 import "./ScreenMain.css"
-import Sidebar from './components/LandingPage/Sidebar/Sidebar';
+import Sidebar from '/Sidebar/Sidebar';
 import ToggleThemeButton from '../components/LandingPage/Sidebar/ToggleThemeButton';
-import Logo from '.-/components/LandingPage/Sidebar/Logo'
+import Logo from './components/LandingPage/Sidebar/Logo'
+import Sider from "antd/es/layout/Sider";
+import { useState } from "react";
 
 const ScreenMain = () => {
+  const [darkTheme, setDarkTheme ] = useState(true)
+  const [collapsed, setCollapsed ] = useState(false)
     return(
         <div className="screenmain">
-            <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+            <Sider>
+              width = {200}
+              collapsed = {collapsed}
+              collapsible
+              trigger = {null}
+              theme = {darkTheme ? 'dark' : 'light'} className='sidebar'
+              <Logo/>
+              <Sidebar darkTheme = {darkTheme} />
+            </Sider>
         </div>
     )
 }
