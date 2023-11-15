@@ -1,5 +1,8 @@
 import logo from "../../images/logo.svg";
 import "./ScreenMain.css"
+import Sidebar from './components/LandingPage/Sidebar/Sidebar';
+import ToggleThemeButton from '../components/LandingPage/Sidebar/ToggleThemeButton';
+import Logo from '.-/components/LandingPage/Sidebar/Logo'
 
 const ScreenMain = () => {
     return(

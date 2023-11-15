@@ -10,16 +10,11 @@ import Logo from './components/LandingPage/Sidebar/Logo'
 
 import { MenuUnfoldOutlined , MenuFoldOutlined, BellOutlined, SettingOutlined } from '@ant-design/icons'
 
-// import AppBar from "./components/LandingPage/AppBar"
-import ScreenMain from "./components/LandingPage/ScreenMain"
-// import AdPanels from "./components/LandingPage/AdPanels"
 import Footer from "./components/LandingPage/Footer"
 import Login from './components/Autoregistro/Login/Login';
 import Register from './components/Autoregistro/Register/Register';
 import Dashboard from './components/Autoregistro/Dashboard/Dashboard';
 import Solicitudes from './components/Solicitudes/Solicitudes'
-
-
 
 const {Header, Sider , Content} = Layout
 
@@ -49,61 +44,47 @@ function App() {
         <Route path = '/' element={<Login  />} />
         <Route path = '/register' element={<Register />} />
       </Routes>
-
-        
+      <Layout>
+        <Sider 
+          width = {200}
+          collapsed = {collapsed}
+          collapsible
+          trigger = {null}
+          theme = {darkTheme ? 'dark' : 'light'} className='sidebar'>
+          <Logo />
+          <Sidebar darkTheme = {darkTheme} />
+          <ToggleThemeButton darkTheme = {darkTheme} toggleTheme = {toggleTheme}/>
+        </Sider>
         <Layout>
-            <Sider 
-                width = {200}
-                collapsed = {collapsed}
-                collapsible
-                trigger = {null}
-                theme = {darkTheme ? 'dark' : 'light'} className='sidebar'>
-          
-            <Logo />
-            <Sidebar darkTheme = {darkTheme} />
-            <ToggleThemeButton darkTheme = {darkTheme} toggleTheme = {toggleTheme}/>
-            </Sider>
-
-            <Layout>
-            <Header style={{padding: 0,
-                            background: 'white',
-                            display: 'flex', 
-                            justifyContent: 'space-between', 
-                            alignItems: 'center' , 
-                            height: '40px'}}>
+          <Header style={{padding: 0,
+            background: 'white',
+            display: 'flex', 
+            justifyContent: 'space-between', 
+            alignItems: 'center' , 
+            height: '40px'}}>
             <Button type='text' className='toggle'
-                      icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-                      onClick={() => setCollapsed(!collapsed)}
-              />
-                <Button type='text'
-                        className='setting-button'
-                        icon={<SettingOutlined />}/>
-                <FloatButton.BackTop />
-
-            </Header>
-                          
-            <Content 
-                style = {{
-                margin: '24px 16px',
-                padding: 24,
-                minHeight: 280,
-                background: 'white',
-              }}>
-              
-              <Routes>
-                {/* Colocar las rutas aqui */}
-                <Route path = '/dashboard' element = {<Dashboard/>} />
-                <Route path = '/solicitudes' element = {<Solicitudes/>} />
-
-
-              </Routes>
-            </Content>
-            <Footer style={{ textAlign: 'center' }}>Empresa Telefónica ©2023 </Footer>
-          
-            </Layout>
+              icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+              onClick={() => setCollapsed(!collapsed)}/>
+            <Button type='text'
+              className='setting-button'
+              icon={<SettingOutlined />}/>
+              <FloatButton.BackTop />
+          </Header>      
+          <Content 
+            style = {{
+            margin: '24px 16px',
+            padding: 24,
+            minHeight: 280,
+            background: 'white',}}>
+            <Routes>
+              {/* Colocar las rutas aqui */}
+              <Route path = '/dashboard' element = {<Dashboard/>} />
+              <Route path = '/solicitudes' element = {<Solicitudes/>} />
+            </Routes>
+          </Content>
+          <Footer style={{ textAlign: 'center' }}>Empresa Telefónica ©2023 </Footer>
         </Layout>
-        
-
+      </Layout>
     </Router>
   );
 }
