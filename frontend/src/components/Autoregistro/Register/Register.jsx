@@ -15,17 +15,41 @@ const onFinishFailed = (errorInfo) => {
     console.log('Failed: ' , errorInfo)
 }
 
-const buscarPorDNI = async(values) => {
+const validarDNI = async (dni) => {
     try {
-        console.log(values)
-        const DNI = 987654321
-        const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${DNI}`
-        const respuesta = await axios.get(url)
-        console.log(respuesta.data.apellido)
-    } catch(e) {
-        console.log(e)
+      const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${dni}`;
+      const respuesta = await axios.get(url);
+  
+      if (respuesta.status === 200) {
+        console.log('El DNI existe en el enlace proporcionado');
+        // Realiza aquí cualquier acción adicional que necesites cuando el DNI existe
+      } else {
+        console.log('El DNI no existe en el enlace proporcionado');
+        // Realiza aquí cualquier acción adicional que necesites cuando el DNI no existe
+      }
+    } catch (e) {
+      console.error('Error al verificar el DNI:', e);
+      // Realiza aquí cualquier acción adicional que necesites en caso de error
     }
-}
+  };
+  
+  // Uso de la función
+  //const dniIngresado = 123456789; // Reemplaza con el DNI que deseas verificar
+  //validarDNI(dniIngresado);
+  
+
+
+//const validarDNI = async(values) => {
+    //try {
+    //    console.log(values)
+    //    const DNI = 987654321
+    //    const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${DNI}`
+    //    const respuesta = await axios.get(url)
+    //    console.log(respuesta.data.apellido)
+    //} catch(e) {
+    //    console.log(e)
+    //}
+//}
 
 const RegisterUser = async (values) => {
     try {

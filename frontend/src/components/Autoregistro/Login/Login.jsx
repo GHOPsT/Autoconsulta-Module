@@ -16,9 +16,9 @@ const Login = () => {
   const onFinish = async (values) => {
     try {
       //Realiza una solicutud al servidor para autenticas al usuario
-      const response = await axios.post('http://',{
-      usuario: values.usuariom,
-      contrasena: values.contrasena,
+      const response = await axios.post('http://localhost:3002/login',{
+      usuario: values.usuario,
+      contrasenia: values.contrasenia,
     });
     
     if (response.data.sucess) {
@@ -72,7 +72,7 @@ const Login = () => {
             </Form.Item>
 
             <Form.Item>
-              <Button type="primary" htmlType="submit" block >
+              <Button type="primary" htmlType="submit" block onClick={onFinish}>
                 Ingresar
               </Button>
             </Form.Item>

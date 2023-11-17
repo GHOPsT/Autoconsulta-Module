@@ -21,16 +21,18 @@ const ScreenMain = () => {
   )
     return(
         <div className="screenmain">
-            <Sider
-              width = {200}
-              collapsed = {collapsed}
-              collapsible
-              trigger = {null}
-              theme = {darkTheme ? 'dark' : 'light'} className='sidebar' >
-              <Logo/>
-              <Sidebar darkTheme = {darkTheme} />
-              <ToggleThemeButton darkTheme= {darkTheme} toggleTheme= {toggleTheme} />
-            </Sider>
+            <Layout>
+              <Sider
+                width = {200}
+                collapsed = {collapsed}
+                collapsible
+                trigger = {null}
+                theme = {darkTheme ? 'dark' : 'light'} className='sidebar' >
+                <Logo/>
+                <Sidebar darkTheme = {darkTheme} />
+                <ToggleThemeButton darkTheme= {darkTheme} toggleTheme= {toggleTheme} />
+              </Sider>
+            </Layout>
             <Layout>
               <Header style={{padding: 0,
                 background: 'white',
