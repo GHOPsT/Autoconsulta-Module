@@ -10,8 +10,21 @@ import { HomeOutlined, UserOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 
 
+<<<<<<< HEAD
 import './Solicitudes.css'
 import GeneralTable from './Tables/GeneralTable';
+=======
+const reclamosDNI = async(values) => {
+    try {
+        console.log(values)
+        const url = `https://api-reclamos.onrender.com/reclamos/${values}`
+        const respuesta = await axios.get(url)
+        console.log(respuesta.data.apellido)
+    } catch(e) {
+        console.log(e)
+    }
+}
+>>>>>>> 620ce1234b7f940ec2ca5154df5ab3317ad802a6
 
 const Solicitudes = () => {
 
