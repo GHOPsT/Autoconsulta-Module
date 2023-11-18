@@ -9,6 +9,7 @@ app.disable("x-powered-by")
 const corsOptions = {
     origin: '*',
     allowedHeaders: ['Content-Type'],
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 };
 
@@ -27,9 +28,10 @@ const db = new Client({
 app.post('/registro', (req, res) => {
   const { validar, usuario, contrasenia } = req.body;
   //const query = 'INSERT INTO users (usuario, contrasenia, validar) VALUES ($1, $2, $3)';
+  console.log('Datos recibidos: ', {validar, usuario, contrasenia})
   //const values = 
   // Utiliza placeholders de tipo $1, $2, $3 en lugar de ? para PostgreSQL
-  db.query('INSERT INTO users (usuario, contrasenia, validar) VALUES ($1, $2, $3)', [usuario, contrasenia, validar], (err, result) => {
+  db.query('INSERT INTO users (validar, usuario, contrasenia) VALUES ($1, $2, $3)', [validar, usuario, contrasenia], (err, result) => {
     if (err) {
       console.error(err);
       res.status(500).send('Error al registrar usuario');
@@ -45,6 +47,7 @@ app.post('/login', async (req, res) => {
   const { usuario, contrasenia } = req.body;
 
   try {
+    // Utiliza una consulta preparada para evitar ataques de SQL injection
     const query = 'SELECT * FROM users WHERE usuario = $1 AND contrasenia = $2';
     const result = await db.query(query, [usuario, contrasenia]);
 
@@ -64,3 +67,4 @@ app.post('/login', async (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor backend en el puerto ${port}`);
 });
+

@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import '../Login/Login.css'
-import { Button, Checkbox, Form, Input } from 'antd'
+import { Button, Checkbox, Form, Input, message } from 'antd'
 import logo from '../../../images/imagenLogin.jpg'
 import { FcSimCard } from 'react-icons/fc'
 import { Link , useNavigate } from 'react-router-dom' // Importa useHistory
+import axios from 'axios'
 
 const Login = () => {
   const [form] = Form.useForm()
@@ -12,14 +13,25 @@ const Login = () => {
   // Usa useHistory para realizar una redirección programática
   const navigate = useNavigate()
 
-  const onFinish = (values) => {
-    // Simula la verificación de inicio de sesión. Puedes implementar tu lógica de autenticación aquí.
-    if (values.usuario === 'usuarioValido' && values.contrasena === 'contrasenaValida') {
-      setLoginSuccess(true)
-      // Realiza una redirección al dashboard
-      navigate('/dashboard')
+  const onFinish = async (values) => {
+    try {
+      //Realiza una solicutud al servidor para autenticas al usuario
+      const response = await axios.post('http://localhost:3002/login',{
+      usuario: values.usuario,
+      contrasenia: values.contrasenia,
+    });
+    
+    if (response.data.sucess) {
+      setLoginSuccess(true);
+      //Realiza una redireccion al dashboard
+      navigate('/screenmain');
     } else {
-      setLoginSuccess(false)
+      setLoginSuccess(false);
+      message.error('Credenciales incorrectas');
+    }
+  } catch (error) {
+    console.error('Error en la autenticacion: ', error);
+    message.error('Error en la autenticacion');
     }
   }
 
@@ -60,7 +72,7 @@ const Login = () => {
             </Form.Item>
 
             <Form.Item>
-              <Button type="primary" htmlType="submit" block>
+              <Button type="primary" htmlType="submit" block onClick={onFinish}>
                 Ingresar
               </Button>
             </Form.Item>
