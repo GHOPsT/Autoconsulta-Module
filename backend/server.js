@@ -24,6 +24,25 @@ const db = new Client({
   database: 'autoconsultadb'
 })
 
+
+// Ruta para manejar las solicitudes GET relacionadas con las quejas
+app.get('/quejas/:dni', async (req, res) => {
+  const dni = req.params.dni;
+
+  try {
+    // Hacer la solicitud al servidor externo desde el servidor backend
+    const url = `https://api-reclamos.onrender.com/quejas/${dni}`;
+    const respuesta = await axios.get(url);
+
+    res.json(respuesta.data);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ mensaje: 'Error en el servidor al obtener quejas externas' });
+  }
+});
+
+
+
 app.post('/registro', (req, res) => {
   const { validar, usuario, contrasenia } = req.body;
   //const query = 'INSERT INTO users (usuario, contrasenia, validar) VALUES ($1, $2, $3)';

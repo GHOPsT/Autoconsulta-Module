@@ -3,13 +3,14 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const QuejasTable = ({ bordered, size, scroll }) => {
-  const [dataQuejas, setDataQuejas] = useState();
+  const [dataQuejas, setDataQuejas] = useState([]);
 
   const columnsQuejas = [
     {
       title: 'Fecha de Respuesta',
       dataIndex: 'fecha_respuesta',
       key: 'fecha_respuesta',
+
     },
     {
       title: 'ID de Queja',
@@ -78,18 +79,14 @@ const QuejasTable = ({ bordered, size, scroll }) => {
     },
   ];
 
-  const [showTable, setShowTable] = useState(true);
-
-  const handleToggleTable = () => {
-    setShowTable(!showTable);
-  };
 
   useEffect(() => {
     const dniDePrueba = "25627731";
 
     const fetchData = async () => {
       try {
-        const url = `https://api-reclamos.onrender.com/quejas/${dniDePrueba}`;
+        // Utiliza tu propio servidor backend como intermediario
+        const url = `http://localhost:3002/quejas/${dniDePrueba}`;
         const respuesta = await axios.get(url);
         setDataQuejas(respuesta.data);
       } catch (e) {
@@ -98,7 +95,8 @@ const QuejasTable = ({ bordered, size, scroll }) => {
     };
 
     fetchData();
-  }, []); // Se ejecutará solo una vez al montar el componente
+  }, []); 
+
 
   return (
     <>

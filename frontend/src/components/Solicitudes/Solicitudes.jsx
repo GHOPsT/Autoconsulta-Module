@@ -14,13 +14,6 @@ import QuejasTable from './Tables/QuejasTable';
 import ReclamosTable from './Tables/ReclamosTable';
 import SolicitudesTable from './Tables/SolicitudesTable';
 
-
-import axios from 'axios'
-
-
-
-
-
 const Solicitudes = () => {
 
   
