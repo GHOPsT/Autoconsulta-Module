@@ -5,16 +5,6 @@ import '../../App.css'
 
 // import Axios from 'axios'
 
-const reclamosDNI = async(values) => {
-    try {
-        console.log(values)
-        const url = `https://api-reclamos.onrender.com/reclamos/${values}`
-        const respuesta = await axios.get(url)
-        console.log(respuesta.data.apellido)
-    } catch(e) {
-        console.log(e)
-    }
-}
 
 const Solicitudes = () => {
     const [columns , setColumns ] = useState([])
