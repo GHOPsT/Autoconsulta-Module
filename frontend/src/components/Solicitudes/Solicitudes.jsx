@@ -7,16 +7,6 @@ import { HomeOutlined, UserOutlined } from '@ant-design/icons';
 
 import { Link } from 'react-router-dom';
 
-const reclamosDNI = async(values) => {
-    try {
-        console.log(values)
-        const url = `https://api-reclamos.onrender.com/reclamos/${values}`
-        const respuesta = await axios.get(url)
-        console.log(respuesta.data.apellido)
-    } catch(e) {
-        console.log(e)
-    }
-}
 
 import './Solicitudes.css'
 import GeneralTable from './Tables/GeneralTable';
