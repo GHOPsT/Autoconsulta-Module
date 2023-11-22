@@ -1,1 +1,13 @@
-/*# sourceMappingURL=Solicitudes.css.map */
+.solicitudes-container {
+  padding: 1rem;
+}
+.solicitudes-container h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.solicitudes-container .options-container {
+  padding: 0.5rem;
+}
+.solicitudes-container .options-container h2 {
+  margin-bottom: 0.5rem;
+}/*# sourceMappingURL=Solicitudes.css.map */
