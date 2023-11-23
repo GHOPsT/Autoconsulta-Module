@@ -17,51 +17,38 @@ const onFinishFailed = (errorInfo) => {
 
 const validarDNI = async (dni) => {
     try {
-      const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${dni}`;
-      const respuesta = await axios.get(url);
-  
-      if (respuesta.status === 200) {
-        console.log('El DNI existe en el enlace proporcionado');
-        // Realiza aquí cualquier acción adicional que necesites cuando el DNI existe
-      } else {
-        console.log('El DNI no existe en el enlace proporcionado');
-        // Realiza aquí cualquier acción adicional que necesites cuando el DNI no existe
-      }
+        const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${dni}`;
+        const respuesta = await axios.get(url);
+
+        return respuesta.status === 200;
     } catch (e) {
-      console.error('Error al verificar el DNI:', e);
-      // Realiza aquí cualquier acción adicional que necesites en caso de error
+        console.error('Error al verificar el DNI:', e);
+        return false;
     }
-  };
-  
-  // Uso de la función
-  //const dniIngresado = 123456789; // Reemplaza con el DNI que deseas verificar
-  //validarDNI(dniIngresado);
-  
+};
 
-
-//const validarDNI = async(values) => {
-    //try {
-    //    console.log(values)
-    //    const DNI = 987654321
-    //    const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${DNI}`
-    //    const respuesta = await axios.get(url)
-    //    console.log(respuesta.data.apellido)
-    //} catch(e) {
-    //    console.log(e)
-    //}
-//}
 
 const RegisterUser = async (values) => {
     try {
-        console.log(values)
-        const usuarioNuevo = {validar: values.validar, usuario: values.nombreUsuario, contrasenia: values.contrasenia};        
-        const url = "http://localhost:3002/registro"
-        const respuesta = await axios.post(url, usuarioNuevo)
-        console.log('Usuario registrado con éxito:', respuesta)
-    } catch(error) {
-        console.error('Error al registrar el usuario:', error)
+        // Verificar la existencia del DNI antes de registrar al usuario
+        const dniExistente = await validarDNI(values.DNI);
+
+        if (dniExistente) {
+            // Si el DNI existe, continuar con el registro del usuario
+            const usuarioNuevo = { validar: values.validar, usuario: values.usuario, contrasenia: values.contrasena };
+            const url = "http://localhost:3002/registro";
+            const respuesta = await axios.post(url, usuarioNuevo);
+            console.log('Usuario registrado con éxito:', respuesta);
+        } else {
+            // Si el DNI no existe, mostrar un mensaje de error o realizar acciones adicionales según sea necesario
+            console.log('El DNI no existe. No se puede registrar al usuario.');
+            // Aquí puedes mostrar un mensaje de error o realizar otras acciones según tus necesidades
+        }
+    } catch (error) {
+        console.error('Error al registrar el usuario:', error);
     }
-}
+};
+  
 
 const Register = () => {
 

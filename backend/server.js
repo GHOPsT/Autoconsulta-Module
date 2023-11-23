@@ -20,9 +20,9 @@ app.use(cors(corsOptions))
 
 const db = new Client({
   user: 'postgres',
-  password: 'gian',
+  password: '123456',
   host: 'localhost',
-  database: 'autoconsultadb'
+  database: 'postgres'
 })
 
 
