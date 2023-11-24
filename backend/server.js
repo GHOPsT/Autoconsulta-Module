@@ -2,21 +2,21 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { Client } = require('pg')
 const cors = require('cors');
-const e = require('express');
+
 
 const app = express();
 app.disable("x-powered-by")
 const corsOptions = {
     origin: '*',
     allowedHeaders: ['Content-Type'],
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+
     credentials: true,
 };
 
 const port = 3002;
 
-app.use(bodyParser.json());
 app.use(cors(corsOptions))
+app.use(express.json());
 
 const db = new Client({
   user: 'postgres',
@@ -24,6 +24,14 @@ const db = new Client({
   host: 'localhost',
   database: 'postgres'
 })
+
+db.connect()
+  .then(() => {
+    console.log('Conexión a la base de datos establecida correctamente');
+  })
+  .catch(err => {
+    console.error('Error al conectar a la base de datos:', err.message);
+  });
 
 
 // Ruta para manejar las solicitudes GET relacionadas con las quejas
@@ -46,20 +54,17 @@ app.get('/quejas/:dni', async (req, res) => {
 
 app.post('/registro', (req, res) => {
   const { validar, usuario, contrasenia } = req.body;
-  //const query = 'INSERT INTO users (usuario, contrasenia, validar) VALUES ($1, $2, $3)';
-  console.log('Datos recibidos: ', {validar, usuario, contrasenia})
-  //const values = 
-  // Utiliza placeholders de tipo $1, $2, $3 en lugar de ? para PostgreSQL
-  db.query('INSERT INTO users (validar, usuario, contrasenia) VALUES ($1, $2, $3)', [validar, usuario, contrasenia], (err, result) => {
+  const query = 'INSERT INTO users (validar, usuario, contrasenia) VALUES ($1, $2, $3)';
+
+  db.query(query, [validar, usuario, contrasenia], (err) => {
     if (err) {
       console.error(err);
-      res.status(500).send('Error al registrar usuario');
+      res.status(500).json({ mensaje: 'Error al registrar usuario', error: err.message });
     } else {
-      res.status(200).send('Usuario registrado exitosamente');
+      res.status(200).json({ mensaje: 'Usuario registrado exitosamente' });
     }
   });
 });
-
 
 
 app.post('/login', async (req, res) => {
@@ -82,6 +87,9 @@ app.post('/login', async (req, res) => {
     res.status(500).json({ mensaje: 'Error en el servidor' });
   }
 });
+
+
+
 
 app.listen(port, () => {
   console.log(`Servidor backend en el puerto ${port}`);

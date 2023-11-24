@@ -6,36 +6,41 @@ import {FcSimCard} from 'react-icons/fc'
 import axios from 'axios'
 import "./Register.css"
 
-
-// Informacion para la consola al ingresar los datos
-const onFinish = (values) => {
-    console.log('Success: ', values)
-}
 const onFinishFailed = (errorInfo) => {
     console.log('Failed: ' , errorInfo)
 }
 
 const validarDNI = async (dni) => {
     try {
+        console.log("3")
         const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${dni}`;
         const respuesta = await axios.get(url);
 
-        return respuesta.status === 200;
+        if (respuesta.status === 200) {
+            return true;
+        } else {
+            throw new Error('DNI no encontrado');
+        }
+        
     } catch (e) {
         console.error('Error al verificar el DNI:', e);
         return false;
     }
 };
 
-
 const RegisterUser = async (values) => {
     try {
+        console.log("valores del formulario", values)
         // Verificar la existencia del DNI antes de registrar al usuario
-        const dniExistente = await validarDNI(values.DNI);
+        const usuarioNuevo = { validar: values.validar, usuario: values.usuario, contrasenia: values.contrasenia };
+        
+        const dniExistente = await validarDNI(values.validar);
+        console.log("valores del formulario", usuarioNuevo)
 
         if (dniExistente) {
+            console.log("2")
             // Si el DNI existe, continuar con el registro del usuario
-            const usuarioNuevo = { validar: values.validar, usuario: values.usuario, contrasenia: values.contrasena };
+            
             const url = "http://localhost:3002/registro";
             const respuesta = await axios.post(url, usuarioNuevo);
             console.log('Usuario registrado con éxito:', respuesta);
@@ -51,8 +56,8 @@ const RegisterUser = async (values) => {
   
 
 const Register = () => {
-
     const [form] = Form.useForm()
+
   return (
         <div className='loginPage flex login-container'>
             <div className='container'>
@@ -73,17 +78,17 @@ const Register = () => {
                         }}
                         onFinish={RegisterUser}
                         onFinishFailed={onFinishFailed}>
-                        <Form.Item label="DNI" name="DNI" rules={[{required: true, message: 'Por favor, ingrese su DNI' }]}style={{marginTop: '-10px'}}>
+                        <Form.Item label="DNI" name="validar" rules={[{required: true, message: 'Por favor, ingrese su DNI' }]}style={{marginTop: '-10px'}}>
                             <Input placeholder='Ingrese DNI' />
                         </Form.Item>
                         <Form.Item label="Usuario" name="usuario" rules={[{ required: true, message: 'Por favor, ingrese su usuario' }]}>
                             <Input placeholder="Ingrese Usuario" />
                         </Form.Item>
-                        <Form.Item label="Contraseña" name="contrasena" rules={[{ required: true, message: 'Por favor, ingrese su contraseña' }]}>
+                        <Form.Item label="Contraseña" name="contrasenia" rules={[{ required: true, message: 'Por favor, ingrese su contraseña' }]}>
                             <Input.Password placeholder="Ingrese Contraseña" />
                         </Form.Item>
                         <Form.Item>
-                            <Button type="primary" htmlType="submit" block onClick={RegisterUser}>
+                            <Button type="primary" htmlType="submit" block>
                             Registrarse
                             </Button>
                         </Form.Item>
