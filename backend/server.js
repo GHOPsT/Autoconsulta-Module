@@ -71,9 +71,11 @@ app.post('/login', async (req, res) => {
   const { usuario, contrasenia } = req.body;
 
   try {
+    console.log('Cuerpo de la solicitud:', req.body);
     // Utiliza una consulta preparada para evitar ataques de SQL injection
     const query = 'SELECT * FROM users WHERE usuario = $1 AND contrasenia = $2';
     const result = await db.query(query, [usuario, contrasenia]);
+    console.log('Resultado de la consulta:', result.rows);
 
     if (result.rows.length > 0) {
       // Usuario y contraseña válidos
@@ -83,7 +85,7 @@ app.post('/login', async (req, res) => {
       res.status(401).json({ mensaje: 'Credenciales incorrectas' });
     }
   } catch (error) {
-    console.error(error);
+    console.error('Error al ejecutar la consulta:', error);
     res.status(500).json({ mensaje: 'Error en el servidor' });
   }
 });
