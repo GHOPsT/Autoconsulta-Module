@@ -6,6 +6,36 @@ import { FcSimCard } from 'react-icons/fc';
 import { Link, useNavigate } from 'react-router-dom'; // Importa useHistory
 import axios from 'axios';
 
+
+/*
+const LoginUser = async (values) => {
+  try {
+      console.log("valores del formulario", values)
+      // Verificar la existencia del DNI antes de registrar al usuario
+      const usuarioNuevo = { validar: values.validar, usuario: values.usuario, contrasenia: values.contrasenia };
+      
+      const dniExistente = await validarDNI(values.validar);
+      console.log("valores del formulario", usuarioNuevo)
+
+      if (dniExistente) {
+          console.log("2")
+          // Si el DNI existe, continuar con el registro del usuario
+          
+          const url = "http://localhost:3002/registro";
+          const respuesta = await axios.post(url, usuarioNuevo);
+          console.log('Usuario registrado con éxito:', respuesta);
+      } else {
+          // Si el DNI no existe, mostrar un mensaje de error o realizar acciones adicionales según sea necesario
+          console.log('El DNI no existe. No se puede registrar al usuario.');
+          // Aquí puedes mostrar un mensaje de error o realizar otras acciones según tus necesidades
+      }
+  } catch (error) {
+      console.error('Error al registrar el usuario:', error);
+  }
+};
+*/
+
+
 const Login = () => {
   const [form] = Form.useForm();
   const [loginSuccess, setLoginSuccess] = useState(false);
@@ -20,6 +50,7 @@ const Login = () => {
 
       if (response.data.success) {
         setLoginSuccess(true);
+        console.log("a")
         // Realiza una redirección al dashboard
         navigate('/screenmain');
       } else {
