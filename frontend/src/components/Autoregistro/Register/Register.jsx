@@ -6,66 +6,58 @@ import {FcSimCard} from 'react-icons/fc'
 import axios from 'axios'
 import "./Register.css"
 
-
-// Informacion para la consola al ingresar los datos
-const onFinish = (values) => {
-    console.log('Success: ', values)
-}
 const onFinishFailed = (errorInfo) => {
     console.log('Failed: ' , errorInfo)
 }
 
 const validarDNI = async (dni) => {
     try {
-      const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${dni}`;
-      const respuesta = await axios.get(url);
-  
-      if (respuesta.status === 200) {
-        console.log('El DNI existe en el enlace proporcionado');
-        // Realiza aquí cualquier acción adicional que necesites cuando el DNI existe
-      } else {
-        console.log('El DNI no existe en el enlace proporcionado');
-        // Realiza aquí cualquier acción adicional que necesites cuando el DNI no existe
-      }
+        console.log("3")
+        const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${dni}`;
+        const respuesta = await axios.get(url);
+
+        if (respuesta.status === 200) {
+            return true;
+        } else {
+            throw new Error('DNI no encontrado');
+        }
+        
     } catch (e) {
-      console.error('Error al verificar el DNI:', e);
-      // Realiza aquí cualquier acción adicional que necesites en caso de error
+        console.error('Error al verificar el DNI:', e);
+        return false;
     }
-  };
-  
-  // Uso de la función
-  //const dniIngresado = 123456789; // Reemplaza con el DNI que deseas verificar
-  //validarDNI(dniIngresado);
-  
-
-
-//const validarDNI = async(values) => {
-    //try {
-    //    console.log(values)
-    //    const DNI = 987654321
-    //    const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${DNI}`
-    //    const respuesta = await axios.get(url)
-    //    console.log(respuesta.data.apellido)
-    //} catch(e) {
-    //    console.log(e)
-    //}
-//}
+};
 
 const RegisterUser = async (values) => {
     try {
-        console.log(values)
-        const usuarioNuevo = {validar: values.validar, usuario: values.nombreUsuario, contrasenia: values.contrasenia};        
-        const url = "http://localhost:3002/registro"
-        const respuesta = await axios.post(url, usuarioNuevo)
-        console.log('Usuario registrado con éxito:', respuesta)
-    } catch(error) {
-        console.error('Error al registrar el usuario:', error)
+        console.log("valores del formulario", values)
+        // Verificar la existencia del DNI antes de registrar al usuario
+        const usuarioNuevo = { validar: values.validar, usuario: values.usuario, contrasenia: values.contrasenia };
+        
+        const dniExistente = await validarDNI(values.validar);
+        console.log("valores del formulario", usuarioNuevo)
+
+        if (dniExistente) {
+            console.log("2")
+            // Si el DNI existe, continuar con el registro del usuario
+            
+            const url = "http://localhost:3002/registro";
+            const respuesta = await axios.post(url, usuarioNuevo);
+            console.log('Usuario registrado con éxito:', respuesta);
+        } else {
+            // Si el DNI no existe, mostrar un mensaje de error o realizar acciones adicionales según sea necesario
+            console.log('El DNI no existe. No se puede registrar al usuario.');
+            // Aquí puedes mostrar un mensaje de error o realizar otras acciones según tus necesidades
+        }
+    } catch (error) {
+        console.error('Error al registrar el usuario:', error);
     }
-}
+};
+  
 
 const Register = () => {
-
     const [form] = Form.useForm()
+
   return (
         <div className='loginPage flex login-container'>
             <div className='container'>
@@ -86,17 +78,17 @@ const Register = () => {
                         }}
                         onFinish={RegisterUser}
                         onFinishFailed={onFinishFailed}>
-                        <Form.Item label="DNI" name="DNI" rules={[{required: true, message: 'Por favor, ingrese su DNI' }]}style={{marginTop: '-10px'}}>
+                        <Form.Item label="DNI" name="validar" rules={[{required: true, message: 'Por favor, ingrese su DNI' }]}style={{marginTop: '-10px'}}>
                             <Input placeholder='Ingrese DNI' />
                         </Form.Item>
                         <Form.Item label="Usuario" name="usuario" rules={[{ required: true, message: 'Por favor, ingrese su usuario' }]}>
                             <Input placeholder="Ingrese Usuario" />
                         </Form.Item>
-                        <Form.Item label="Contraseña" name="contrasena" rules={[{ required: true, message: 'Por favor, ingrese su contraseña' }]}>
+                        <Form.Item label="Contraseña" name="contrasenia" rules={[{ required: true, message: 'Por favor, ingrese su contraseña' }]}>
                             <Input.Password placeholder="Ingrese Contraseña" />
                         </Form.Item>
                         <Form.Item>
-                            <Button type="primary" htmlType="submit" block onClick={RegisterUser}>
+                            <Button type="primary" htmlType="submit" block>
                             Registrarse
                             </Button>
                         </Form.Item>

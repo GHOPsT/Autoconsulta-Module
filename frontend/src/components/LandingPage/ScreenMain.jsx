@@ -5,8 +5,7 @@ import Sider from "antd/es/layout/Sider";
 import ToggleThemeButton from "./Sidebar/ToggleThemeButton";
 import { useState } from "react";
 import {Button, Layout, FloatButton } from "antd";
-import { Content, Header } from "antd/es/layout/layout";
-import Footer from "./Footer";
+import { Content, Header,Footer } from "antd/es/layout/layout";
 import { MenuUnfoldOutlined , MenuFoldOutlined, BellOutlined, SettingOutlined } from '@ant-design/icons'
 import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
 import Solicitudes from "../Solicitudes/Solicitudes";
@@ -32,7 +31,6 @@ const ScreenMain = () => {
                 <Sidebar darkTheme = {darkTheme} />
                 <ToggleThemeButton darkTheme= {darkTheme} toggleTheme= {toggleTheme} />
               </Sider>
-            </Layout>
             <Layout>
               <Header style={{padding: 0,
                 background: 'white',
@@ -61,6 +59,7 @@ const ScreenMain = () => {
                 </Routes>
             </Content>
             <Footer style ={{textAlign: 'center'}}>Empresa Telefónica ©2023 </Footer>
+            </Layout>
             </Layout>
         </div>
     )
