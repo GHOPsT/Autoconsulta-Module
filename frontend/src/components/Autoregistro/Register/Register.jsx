@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button , Checkbox , Form , Input } from 'antd'
+import {Button , Form , Input } from 'antd'
 import logo from '../../../images/imagenRegister.jpg'
 import { Link } from 'react-router-dom'
 import {FcSimCard} from 'react-icons/fc'
@@ -32,9 +32,9 @@ const RegisterUser = async (values) => {
     try {
         console.log("valores del formulario", values)
         // Verificar la existencia del DNI antes de registrar al usuario
-        const usuarioNuevo = { validar: values.validar, usuario: values.usuario, contrasenia: values.contrasenia };
+        const usuarioNuevo = { dni: values.dni, usuario: values.usuario, contrasenia: values.contrasenia };
         
-        const dniExistente = await validarDNI(values.validar);
+        const dniExistente = await validarDNI(values.dni);
         console.log("valores del formulario", usuarioNuevo)
 
         if (dniExistente) {
@@ -78,7 +78,7 @@ const Register = () => {
                         }}
                         onFinish={RegisterUser}
                         onFinishFailed={onFinishFailed}>
-                        <Form.Item label="DNI" name="validar" rules={[{required: true, message: 'Por favor, ingrese su DNI' }]}style={{marginTop: '-10px'}}>
+                        <Form.Item label="DNI" name="dni" rules={[{required: true, message: 'Por favor, ingrese su DNI' }]}style={{marginTop: '-10px'}}>
                             <Input placeholder='Ingrese DNI' />
                         </Form.Item>
                         <Form.Item label="Usuario" name="usuario" rules={[{ required: true, message: 'Por favor, ingrese su usuario' }]}>

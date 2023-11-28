@@ -1,0 +1,40 @@
+.Encuesta {
+    text-align: center;
+  }
+  
+  .presentacion {
+    display: flex;
+    justify-content: flex-start; /* Alinea a la izquierda */
+    background-color: #0d1c78;
+    padding: 10px;
+    color: #fff;
+    max-width: 100%; /* Evita que el contenedor se extienda horizontalmente */
+    width: 1000px; /* Permite que el ancho se ajuste automáticamente al contenido */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+  }
+  
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .left-image {
+    margin-right: 200px; 
+  }
+  
+  .right-image {
+    margin-left: 200px; 
+  }
+
+  .alternativa {
+    text-align: center;
+  }
+  
+  .alternativa label {
+    display: inline-block;
+  }
+
+  
+  

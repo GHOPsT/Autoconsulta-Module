@@ -75,10 +75,10 @@ app.get('/quejas/:dni', async (req, res) => {
 
 
 app.post('/registro', (req, res) => {
-  const { validar, usuario, contrasenia } = req.body;
-  const query = 'INSERT INTO users (validar, usuario, contrasenia) VALUES ($1, $2, $3)';
+  const { dni, usuario, contrasenia } = req.body;
+  const query = 'INSERT INTO users (dni, usuario, contrasenia) VALUES ($1, $2, $3)';
 
-  db.query(query, [validar, usuario, contrasenia], (err) => {
+  db.query(query, [dni, usuario, contrasenia], (err) => {
     if (err) {
       console.error(err);
       res.status(500).json({ mensaje: 'Error al registrar usuario', error: err.message });
