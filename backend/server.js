@@ -618,9 +618,11 @@ app.post('/registro', (req, res) => {
   db.query(query, [dni, usuario, contrasenia], (err) => {
     if (err) {
       console.error(err);
-      logError(error)
+      logError(err)
       res.status(500).json({ mensaje: 'Error al registrar usuario', error: err.message });
     } else {
+      // Log de éxito después de la respuesta exitosa
+      logSuccess('Registro de usuario exitoso');
       res.status(200).json({ mensaje: 'Usuario registrado exitosamente' });
     }
   });
@@ -636,7 +638,6 @@ app.post('/login', async (req, res) => {
     // Utiliza una consulta preparada para evitar ataques de SQL injection
     const query = 'SELECT * FROM users WHERE usuario = $1';
     const result = await db.query(query, [usuario]);
-    console.log("A")
 
     if (result.rows.length > 0) {
       // Verifica la contraseña utilizando algún método de hash, como bcrypt
@@ -644,15 +645,27 @@ app.post('/login', async (req, res) => {
       if (user.contrasenia === contrasenia) {
         // Usuario y contraseña válidos
         console.log("Inicio de sesión exitoso");
+
+        // Log de éxito
+        logSuccess('Inicio de sesión exitoso');
+
         res.status(200).json({ success: true, mensaje: 'Inicio de sesión exitoso' });
       } else {
         // Contraseña incorrecta
         console.log("Credenciales incorrectas");
+
+         // Log de error
+         logError('Credenciales incorrectas');
+
         res.status(401).json({ success: false, mensaje: 'Credenciales incorrectas' });
       }
     } else {
       // Usuario no encontrado
       console.log("Usuario no encontrado");
+
+      // Log de error
+      logError('Usuario no encontrado');
+
       res.status(401).json({ success: false, mensaje: 'Credenciales incorrectas' });
     }
   } catch (error) {

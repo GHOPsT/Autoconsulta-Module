@@ -113,3 +113,13 @@
 [2023-11-30T17:59:48.642Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
 [2023-11-30T17:59:49.423Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
 [2023-11-30T17:59:49.426Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-11-30T18:24:52.967Z] Success: Inicio de sesión exitoso
+[2023-11-30T18:27:43.687Z] Success: Obtención de solicitudes por DNI 88990011 completada con éxito.
+[2023-11-30T18:27:43.702Z] Success: Obtención de solicitudes existentes para cliente 88990011 completada con éxito.
+[2023-11-30T18:28:12.367Z] Success: Inserción de solicitudes de la API externa para cliente 88990011 completada con éxito.
+[2023-11-30T18:28:12.548Z] Success: Obtención de solicitudes por DNI 88990011 completada con éxito.
+[2023-11-30T18:28:12.550Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 88990011 completada con éxito.
+[2023-11-30T18:28:12.729Z] Success: Inserción de solicitudes en la base de datos completada con éxito.
+[2023-11-30T18:28:12.731Z] Success: Inserción de solicitudes en la base de datos para cliente 88990011 completada con éxito.
+[2023-11-30T18:28:20.100Z] Success: Obtención de solicitudes por DNI 88990011 completada con éxito.
+[2023-11-30T18:28:20.103Z] Success: Obtención de solicitudes existentes para cliente 88990011 completada con éxito.
