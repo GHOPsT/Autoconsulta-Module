@@ -1,8 +1,6 @@
 import React , { useState } from 'react'
 import DesignOptions from './DesignOptions';
-import { Card, Table , Segmented , Tabs} from 'antd';
-// import QuejasTable from './Tables/QuejasTable';
-// import ReclamosTable from './Tables/ReclamosTable';
+import { Card , Tabs} from 'antd';
 // import SolicitudesTable from './Tables/SolicitudesTable';
 import { Breadcrumb } from 'antd';
 import { HomeOutlined, UserOutlined } from '@ant-design/icons';
@@ -10,22 +8,11 @@ import { HomeOutlined, UserOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 
 
-<<<<<<< HEAD
 import './Solicitudes.css'
 import GeneralTable from './Tables/GeneralTable';
-=======
-const reclamosDNI = async(values) => {
-    try {
-        console.log(values)
-        const url = `https://api-reclamos.onrender.com/reclamos/${values}`
-        const respuesta = await axios.get(url)
-        console.log(respuesta.data.apellido)
-    } catch(e) {
-        console.log(e)
-    }
-}
->>>>>>> 620ce1234b7f940ec2ca5154df5ab3317ad802a6
+import QuejasTable from './Tables/QuejasTable.jsx';
 
+import ReclamosTable from './Tables/ReclamosTable.jsx';
 const Solicitudes = () => {
 
   <Breadcrumb
@@ -85,12 +72,12 @@ const Solicitudes = () => {
       switch (selectedTab) {
         case 'General':
           return <GeneralTable bordered={bordered} size={size} scroll={scroll} />;
-        // case 'Quejas':
-        //   return <QuejasTable bordered={bordered} size={size} scroll={scroll} />;
+        case 'Quejas':
+          return <QuejasTable bordered={bordered} size={size} scroll={scroll} />;
         // case 'Solicitudes':
         //   return <SolicitudesTable bordered={bordered} size={size} scroll={scroll} />;
-        // case 'Reclamos':
-        //   return <ReclamosTable bordered={bordered} size={size} scroll={scroll} />;
+        case 'Reclamos':
+          return <ReclamosTable bordered={bordered} size={size} scroll={scroll} />;
         default:
           return null;
       }
