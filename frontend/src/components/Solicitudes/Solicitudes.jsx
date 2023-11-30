@@ -1,7 +1,6 @@
 import React , { useState } from 'react'
 import DesignOptions from './DesignOptions';
 import { Card , Tabs} from 'antd';
-// import SolicitudesTable from './Tables/SolicitudesTable';
 import { Breadcrumb } from 'antd';
 import { HomeOutlined, UserOutlined } from '@ant-design/icons';
 
@@ -11,7 +10,7 @@ import { Link } from 'react-router-dom';
 import './Solicitudes.css'
 import GeneralTable from './Tables/GeneralTable';
 import QuejasTable from './Tables/QuejasTable.jsx';
-
+import SolicitudesTable from './Tables/SolicitudesTable';
 import ReclamosTable from './Tables/ReclamosTable.jsx';
 const Solicitudes = () => {
 
@@ -74,8 +73,8 @@ const Solicitudes = () => {
           return <GeneralTable bordered={bordered} size={size} scroll={scroll} />;
         case 'Quejas':
           return <QuejasTable bordered={bordered} size={size} scroll={scroll} />;
-        // case 'Solicitudes':
-        //   return <SolicitudesTable bordered={bordered} size={size} scroll={scroll} />;
+        case 'Solicitudes':
+          return <SolicitudesTable bordered={bordered} size={size} scroll={scroll} />;
         case 'Reclamos':
           return <ReclamosTable bordered={bordered} size={size} scroll={scroll} />;
         default:
