@@ -1,5 +1,7 @@
 import React from 'react';
 import { Avatar, List } from 'antd';
+import Sidebar from '../LandingPage/Sidebar/Sidebar';
+
 const data = [
   {
     title: 'Ant Design Title 1',
@@ -33,4 +35,4 @@ const DatosUsuario = () => (
     )}
   />
 );
-export default App;
+export default data;

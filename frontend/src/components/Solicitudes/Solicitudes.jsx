@@ -1,7 +1,6 @@
 import React , { useState } from 'react'
 import DesignOptions from './DesignOptions';
-import { Card, Table , Segmented , Tabs} from 'antd';
-
+import { Card , Tabs} from 'antd';
 import { Breadcrumb } from 'antd';
 import { HomeOutlined, UserOutlined } from '@ant-design/icons';
 
@@ -10,13 +9,11 @@ import { Link } from 'react-router-dom';
 
 import './Solicitudes.css'
 import GeneralTable from './Tables/GeneralTable';
-import QuejasTable from './Tables/QuejasTable';
-import ReclamosTable from './Tables/ReclamosTable';
+import QuejasTable from './Tables/QuejasTable.jsx';
 import SolicitudesTable from './Tables/SolicitudesTable';
-
+import ReclamosTable from './Tables/ReclamosTable.jsx';
 const Solicitudes = () => {
 
-  
   <Breadcrumb
   items={[
     {

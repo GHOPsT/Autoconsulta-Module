@@ -5,6 +5,7 @@ import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import Register from './components/Autoregistro/Register/Register';
 import ScreenMain from './components/LandingPage/ScreenMain';
 import Login from './components/Autoregistro/Login/Login';
+import Solicitudes from './components/Solicitudes/Solicitudes';
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
       <Routes>
         <Route path = '/' element={<Login />} />
         <Route path = '/register' element={<Register />} />
-        <Route path = '/screenmain' element={<ScreenMain/>}/>
+        <Route path = '/screenmain' element={<ScreenMain/>} />
+        <Route path = '/solicitudes' element={<Solicitudes/>} />
       </Routes>
     </Router>
   );

@@ -7,10 +7,9 @@ const QuejasTable = ({ bordered, size, scroll }) => {
 
   const columnsQuejas = [
     {
-      title: 'Fecha de Respuesta',
-      dataIndex: 'fecha_respuesta',
-      key: 'fecha_respuesta',
-
+      title: 'Dni',
+      dataIndex: 'dni',
+      key: 'dni',
     },
     {
       title: 'ID de Queja',
@@ -18,85 +17,48 @@ const QuejasTable = ({ bordered, size, scroll }) => {
       key: 'id_queja',
     },
     {
-      title: 'ID de Cliente',
-      dataIndex: 'id_cliente',
-      key: 'id_cliente',
-    },
-    {
-      title: 'Orden de Compra',
-      dataIndex: 'orden_compra',
-      key: 'orden_compra',
-    },
-    {
-      title: 'Fecha de Compra',
-      dataIndex: 'fecha_compra',
-      key: 'fecha_compra',
-    },
-    {
       title: 'Fecha de Queja',
       dataIndex: 'fecha_queja',
       key: 'fecha_queja',
     },
     {
-      title: 'Petición del Cliente',
-      dataIndex: 'peticion_cliente',
-      key: 'peticion_cliente',
+      title: 'Producto o Servicio',
+      dataIndex: 'prod_serv',
+      key: 'prod_serv',
+    },
+    {
+      title: 'Queja',
+      dataIndex: 'queja',
+      key: 'queja',
+    },
+    {
+      title: 'Comentario',
+      dataIndex: 'comentario',
+      key: 'comentario',
     },
     {
       title: 'Estado',
       dataIndex: 'estado',
       key: 'estado',
     },
-    {
-      title: 'Fecha Límite',
-      dataIndex: 'fecha_limite',
-      key: 'fecha_limite',
-    },
-    {
-      title: 'Tipo de Bien Contratado',
-      dataIndex: 'tipo_bien_contratado',
-      key: 'tipo_bien_contratado',
-    },
-    {
-      title: 'Código de Producto',
-      dataIndex: 'codigo_producto',
-      key: 'codigo_producto',
-    },
-    {
-      title: 'Forma de Respuesta',
-      dataIndex: 'forma_respuesta',
-      key: 'forma_respuesta',
-    },
-    {
-      title: 'Detalle de Queja',
-      dataIndex: 'detalle_queja',
-      key: 'detalle_queja',
-    },
-    {
-      title: 'Acciones Tomadas',
-      dataIndex: 'acciones_tomadas',
-      key: 'acciones_tomadas',
-    },
   ];
 
-
   useEffect(() => {
-    const dniDePrueba = "25627731";
-
-    const fetchData = async () => {
+    const obtenerQuejas = async () => {
       try {
-        // Utiliza tu propio servidor backend como intermediario
-        const url = `http://localhost:3002/quejas/${dniDePrueba}`;
+        // Obtener el DNI de algún lugar, puedes pasarlo como prop o desde el estado
+        const dni = '33445566';
+        const url = `http://localhost:3002/clientes/quejas/${dni}`;
         const respuesta = await axios.get(url);
-        setDataQuejas(respuesta.data);
-      } catch (e) {
-        console.log(e);
+        setDataQuejas(respuesta.data.quejas);
+      } catch (error) {
+        console.log(error);
       }
     };
 
-    fetchData();
-  }, []); 
-
+    // Llamada a la función para obtener quejas al montar el componente
+    obtenerQuejas();
+  }, []); // Se ejecutará solo una vez al montar el componente
 
   return (
     <>
