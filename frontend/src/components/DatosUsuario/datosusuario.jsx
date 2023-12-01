@@ -3,14 +3,16 @@ import { Avatar, List, Breadcrumb } from 'antd';
 import { HomeOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import { useContext } from 'react';
+import { DNIContext } from '../Autoregistro/Login/DNIContext';
 
 const DatosUsuario = () => {
+  const { dni } = useContext(DNIContext); // Aquí obtienes el DNI del usuario del contexto
   const [data, setData] = useState([]);
 
   useEffect(() => {
     const obtenerDatosUsuario = async () => {
       try {
-        const dni = '12345678'; // Aquí debes poner el DNI del usuario que está ingresando
         const url = `http://localhost:3002/usuario/${dni}`;
         const respuesta = await axios.get(url);
         const datosUsuario = respuesta.data;
@@ -19,6 +21,10 @@ const DatosUsuario = () => {
         const datosFormateados = [
           { title: 'DNI', description: datosUsuario.dni },
           { title: 'Usuario', description: datosUsuario.usuario },
+          { title: 'Nombre', description: datosUsuario.nombre },
+          { title: 'Nombre', description: datosUsuario.nombre },
+          { title: 'Nombre', description: datosUsuario.nombre },
+          { title: 'Nombre', description: datosUsuario.nombre },
           { title: 'Nombre', description: datosUsuario.nombre },
           // Agrega aquí el resto de los datos del usuario
         ];

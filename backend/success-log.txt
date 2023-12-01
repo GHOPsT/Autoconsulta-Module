@@ -44,3 +44,7 @@
 [2023-12-01T18:04:18.815Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
 [2023-12-01T18:04:19.046Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
 [2023-12-01T18:04:19.046Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
+[2023-12-01T19:11:22.169Z] Success: Inicio de sesión exitoso
+[2023-12-01T19:21:56.556Z] Success: Inicio de sesión exitoso
+[2023-12-01T19:57:58.037Z] Success: Inicio de sesión exitoso
+[2023-12-01T22:21:58.286Z] Success: Inicio de sesión exitoso

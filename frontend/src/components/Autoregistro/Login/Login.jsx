@@ -1,24 +1,29 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../Login/Login.css';
 import { Button, Checkbox, Form, Input} from 'antd';
 import logo from '../../../images/imagenLogin.jpg';
 import { FcSimCard } from 'react-icons/fc';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { DNIContext } from '../Login/DNIContext';
 
-const LoginUser = async (values, navigate) => {
+const LoginUser = async (values, navigate, setDNI) => {
   try {
     console.log("Valores del formulario para iniciar sesión:", values);
 
     // Verificar la existencia del usuario en la base de datos
-    const usuarioExistente = await verificarCredenciales(values.usuario, values.contrasenia);
+    const {credencialesValidas, dni} = await verificarCredenciales(values.usuario, values.contrasenia);
 
-    if (usuarioExistente) {
+    if (credencialesValidas) {
       // Si las credenciales son válidas, el usuario puede iniciar sesión
       console.log("Inicio de sesión exitoso para el usuario:", values.usuario);
 
-      // Aquí puedes realizar acciones adicionales después del inicio de sesión, si es necesario
       navigate("/screenmain"); // Redirige a la página principal después del inicio de sesión
+      // Almacena el DNI del usuario en el estado global
+      setDNI(dni);
+
+      // Aquí puedes realizar acciones adicionales después del inicio de sesión, si es necesario
+      
 
     } else {
       // Si las credenciales no son válidas, mostrar un mensaje de error o realizar acciones adicionales según sea necesario
@@ -63,6 +68,7 @@ const verificarCredenciales = async (usuario, contrasenia) => {
 const Login = () => {
   const [form] = Form.useForm();
   const navigate = useNavigate();
+  const {setDNI} = useContext(DNIContext);
   
   return (
     <div className='loginPage flex login-container'>
@@ -78,7 +84,7 @@ const Login = () => {
           <Form
             form={form}
             layout="vertical"
-            onFinish={(values) => LoginUser(values, navigate)} // Cambiado el nombre de la función aquí
+            onFinish={(values) => LoginUser(values, navigate, setDNI)} // Cambiado el nombre de la función aquí
           >
             <Form.Item label="Usuario" name="usuario" rules={[{ required: true, message: 'Por favor, ingrese su usuario' }]}>
               <Input placeholder="Ingrese Usuario" />
