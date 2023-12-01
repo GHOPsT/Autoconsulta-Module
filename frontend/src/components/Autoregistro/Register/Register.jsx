@@ -12,7 +12,6 @@ const onFinishFailed = (errorInfo) => {
 
 const validarDNI = async (dni) => {
     try {
-        console.log("3")
         const url = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${dni}`;
         const respuesta = await axios.get(url);
 
@@ -30,22 +29,20 @@ const validarDNI = async (dni) => {
 
 const RegisterUser = async (values) => {
     try {
-        console.log("valores del formulario", values)
-        // Verificar la existencia del DNI antes de registrar al usuario
-        const usuarioNuevo = { dni: values.dni, usuario: values.usuario, contrasenia: values.contrasenia };
+        console.log("valores del formulario", values);
         
+        // Verificar la existencia del DNI antes de registrar al usuario
         const dniExistente = await validarDNI(values.dni);
-        console.log("valores del formulario", usuarioNuevo)
+        console.log("valores del formulario", values);
 
         if (dniExistente) {
-            console.log("2")
-            // Si el DNI existe, continuar con el registro del usuario
-            
+            // Enviar todos los datos al backend
             const url = "http://localhost:3002/registro";
-            const respuesta = await axios.post(url, usuarioNuevo);
+            const respuesta = await axios.post(url, values);
             console.log('Usuario registrado con éxito:', respuesta);
+
+            // Aquí puedes manejar la respuesta del backend según tus necesidades
         } else {
-            // Si el DNI no existe, mostrar un mensaje de error o realizar acciones adicionales según sea necesario
             console.log('El DNI no existe. No se puede registrar al usuario.');
             // Aquí puedes mostrar un mensaje de error o realizar otras acciones según tus necesidades
         }
@@ -53,7 +50,6 @@ const RegisterUser = async (values) => {
         console.error('Error al registrar el usuario:', error);
     }
 };
-  
 
 const Register = () => {
     const [form] = Form.useForm()
@@ -88,7 +84,7 @@ const Register = () => {
                             <Input.Password placeholder="Ingrese Contraseña" />
                         </Form.Item>
                         <Form.Item>
-                            <Button type="primary" htmlType="submit" block>
+                            <Button type="primary" htmlType="submit" block >
                             Registrarse
                             </Button>
                         </Form.Item>

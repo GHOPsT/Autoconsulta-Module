@@ -3,10 +3,7 @@ import DesignOptions from './DesignOptions';
 import { Card , Tabs} from 'antd';
 import { Breadcrumb } from 'antd';
 import { HomeOutlined, UserOutlined } from '@ant-design/icons';
-
 import { Link } from 'react-router-dom';
-
-
 import './Solicitudes.css'
 import GeneralTable from './Tables/GeneralTable';
 import QuejasTable from './Tables/QuejasTable.jsx';
@@ -89,11 +86,12 @@ const Solicitudes = () => {
       {/* Breadcrumb */}
       <Breadcrumb>
           <Breadcrumb.Item>
-              <Link to="/dashboard"> <HomeOutlined />  Inicio </Link>
+              <Link to="/screenmain"> <HomeOutlined />  Inicio </Link>
           </Breadcrumb.Item>
           <Breadcrumb.Item>Historial</Breadcrumb.Item>
           <Breadcrumb.Item>Solicitudes</Breadcrumb.Item>
       </Breadcrumb>
+      
 
       {/* Sección de Encabezado */}
       <h1>HISTORIAL DE SOLICITUDES</h1>

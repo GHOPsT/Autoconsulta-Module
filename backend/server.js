@@ -26,9 +26,6 @@ const port = 3002;
 app.use(cors(corsOptions))
 app.use(express.json());
 
-
-
-
 const db = new Client({
   user: 'postgres_user',
   password: 'iF6rIeogxJGoJh0H354FLxg3HNflzSi3',
@@ -611,22 +608,40 @@ app.get('/clientes/solicitudes/:dni', async (req, res) => {
 
 
 
-app.post('/registro', (req, res) => {
-  const { dni, usuario, contrasenia } = req.body;
-  const query = 'INSERT INTO users (dni, usuario, contrasenia) VALUES ($1, $2, $3)';
+app.post('/registro', async (req, res) => {
+  const { dni, usuario, contrasenia, nombre, apellido, fechan, telefono, correo, departamento, provincia, distrito } = req.body;
+  
+  try {
+    // Iniciar transacción
+    await db.query('BEGIN');
 
-  db.query(query, [dni, usuario, contrasenia], (err) => {
-    if (err) {
-      console.error(err);
-      logError(err)
-      res.status(500).json({ mensaje: 'Error al registrar usuario', error: err.message });
-    } else {
-      // Log de éxito después de la respuesta exitosa
-      logSuccess('Registro de usuario exitoso');
-      res.status(200).json({ mensaje: 'Usuario registrado exitosamente' });
-    }
-  });
+    // Insertar en la tabla principal
+    const queryUsers = 'INSERT INTO users (dni, usuario, contrasenia) VALUES ($1, $2, $3)';
+    await db.query(queryUsers, [dni, usuario, contrasenia]);
+
+    // Insertar en la tabla secundaria
+    const queryDetallesUser = `
+    INSERT INTO detallesUser (dni, nombre, apellido, fechan, telefono, correo, departamento, provincia, distrito) 
+    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+    ON CONFLICT (dni) 
+    DO UPDATE SET nombre = $2, apellido = $3, fechan = $4, telefono = $5, correo = $6, departamento = $7, provincia = $8, distrito = $9
+    `;
+
+    await db.query(queryDetallesUser, [dni, nombre, apellido, fechan, telefono, correo, departamento, provincia, distrito]);
+
+    // Confirmar transacción
+    await db.query('COMMIT');
+
+    res.status(200).json({ mensaje: 'Usuario y detalles del usuario registrados exitosamente' });
+  } catch (error) {
+    // Si hay un error, revertir la transacción
+    await db.query('ROLLBACK');
+    console.error('Error al registrar usuario y detalles del usuario:', error);
+    res.status(500).json({ mensaje: 'Error al registrar usuario y detalles del usuario', error: error.message });
+  }
 });
+
+
 
 
 app.post('/login', async (req, res) => {
@@ -674,7 +689,6 @@ app.post('/login', async (req, res) => {
     res.status(500).json({ success: false, mensaje: 'Error en el servidor' });
   }
 });
-
 
 app.listen(port, () => {
   console.log(`Servidor backend en el puerto ${port}`);

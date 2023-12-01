@@ -6,6 +6,7 @@ import Register from './components/Autoregistro/Register/Register';
 import ScreenMain from './components/LandingPage/ScreenMain';
 import Login from './components/Autoregistro/Login/Login';
 import Solicitudes from './components/Solicitudes/Solicitudes';
+import DatosUsuario from './components/DatosUsuario/datosusuario';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path = '/register' element={<Register />} />
         <Route path = '/screenmain' element={<ScreenMain/>} />
         <Route path = '/solicitudes' element={<Solicitudes/>} />
+        <Route path = '/detallesuser' element={<DatosUsuario/>} />
       </Routes>
     </Router>
   );

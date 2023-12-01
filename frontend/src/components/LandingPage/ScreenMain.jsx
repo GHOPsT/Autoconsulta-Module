@@ -5,16 +5,8 @@ import Logo from "./Sidebar/Logo";
 import Sider from "antd/es/layout/Sider";
 import { useState } from "react";
 import { Button, Layout, FloatButton } from "antd";
-import {
-  Content,
-  Header,
-  Footer
-} from "antd/es/layout/layout";
-import {
-  MenuUnfoldOutlined,
-  MenuFoldOutlined,
-  SettingOutlined,
-} from "@ant-design/icons";
+import { Content, Header, Footer } from "antd/es/layout/layout";
+import { MenuUnfoldOutlined, MenuFoldOutlined, SettingOutlined } from "@ant-design/icons";
 import { Routes, Route, Link } from "react-router-dom";
 import Solicitudes from "../Solicitudes/Solicitudes";
 import Dashboard from "../Autoregistro/Dashboard/Dashboard";
@@ -23,7 +15,6 @@ import DatosUsuario from "../DatosUsuario/datosusuario";
 const ScreenMain = () => {
   const [darkTheme, setDarkTheme] = useState(true);
   const [collapsed, setCollapsed] = useState(false);
-  const [activeComponent, setActiveComponent] = useState("dashboard");
 
   const toggleTheme = () => setDarkTheme(!darkTheme);
 

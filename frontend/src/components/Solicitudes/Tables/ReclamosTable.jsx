@@ -74,12 +74,7 @@ const ReclamosTable = ({ bordered, size, scroll }) => {
         obtenerReclamos();
       }, []); // Se ejecutará solo una vez al montar el componente
       
-
-
   return (
-
-
-
         <>
           <Table
             columns={columnsReclamos}
