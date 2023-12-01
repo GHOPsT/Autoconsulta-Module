@@ -7,6 +7,7 @@ import ScreenMain from './components/LandingPage/ScreenMain';
 import Login from './components/Autoregistro/Login/Login';
 import Solicitudes from './components/Solicitudes/Solicitudes';
 import DatosUsuario from './components/DatosUsuario/datosusuario';
+import Encuesta from './components/Encuesta/Encuesta';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path = '/screenmain' element={<ScreenMain/>} />
         <Route path = '/solicitudes' element={<Solicitudes/>} />
         <Route path = '/detallesuser' element={<DatosUsuario/>} />
+        <Route path = '/encuesta' element={<Encuesta/>} />
       </Routes>
     </Router>
   );

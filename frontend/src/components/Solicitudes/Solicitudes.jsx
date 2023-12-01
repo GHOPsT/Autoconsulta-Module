@@ -1,15 +1,24 @@
 import React , { useState } from 'react'
 import DesignOptions from './DesignOptions';
-import { Card , Tabs} from 'antd';
+import { Card , Layout, Tabs} from 'antd';
 import { Breadcrumb } from 'antd';
-import { HomeOutlined, UserOutlined } from '@ant-design/icons';
+import { HomeOutlined, UserOutlined, MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import './Solicitudes.css'
 import GeneralTable from './Tables/GeneralTable';
 import QuejasTable from './Tables/QuejasTable.jsx';
 import SolicitudesTable from './Tables/SolicitudesTable';
 import ReclamosTable from './Tables/ReclamosTable.jsx';
+import Logo from '../LandingPage/Sidebar/Logo.jsx';
+import Sidebar from '../LandingPage/Sidebar/Sidebar.jsx';
+import Sider from 'antd/es/layout/Sider.js';
+import { Content, Header, Footer } from 'antd/es/layout/layout.js';
 const Solicitudes = () => {
+  const [collapsed, setCollapsed] = useState(false);
+
+  const toggleSidebar = () => {
+    setCollapsed(!collapsed);
+  };
 
   <Breadcrumb
   items={[
@@ -81,18 +90,30 @@ const Solicitudes = () => {
 
     
     return (
+      <Layout>
+      {/* Sidebar */}
+      <Sider
+        trigger={null}
+        collapsible
+        collapsed={collapsed}
+        width={200}
+        theme="dark"
+      >
+        <Logo/>
+        <Sidebar darkTheme={true} />
+      </Sider>
+
+      <Layout className='site-layout'>
+        <Header className='site-layout-background' style={{padding: 0}}>
+          {collapsed ? (
+              <MenuUnfoldOutlined onClick={toggleSidebar} />
+            ) : (
+              <MenuFoldOutlined onClick={toggleSidebar} />
+            )}
+        </Header>
+        <Content style={{margin: '24px 16px', padding: 24, minHeight: 280}}>
       <div className="solicitudes-container">
-
-      {/* Breadcrumb */}
-      <Breadcrumb>
-          <Breadcrumb.Item>
-              <Link to="/screenmain"> <HomeOutlined />  Inicio </Link>
-          </Breadcrumb.Item>
-          <Breadcrumb.Item>Historial</Breadcrumb.Item>
-          <Breadcrumb.Item>Solicitudes</Breadcrumb.Item>
-      </Breadcrumb>
-      
-
+    
       {/* Sección de Encabezado */}
       <h1>HISTORIAL DE SOLICITUDES</h1>
 
@@ -125,12 +146,15 @@ const Solicitudes = () => {
             <Tabs.TabPane tab="Reclamos" key="Reclamos" />
           </Tabs>
         {renderTabContent()}
-
-
       </div>
-      
       </Card>
     </div>
+    </Content>
+    <Footer style={{ textAlign: 'center' }}>
+                Empresa Telefónica ©2023
+    </Footer>
+    </Layout>
+    </Layout>
     )
 }
 

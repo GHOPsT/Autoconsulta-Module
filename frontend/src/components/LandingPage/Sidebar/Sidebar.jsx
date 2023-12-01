@@ -6,7 +6,7 @@ const Sidebar = ({darkTheme}) => {
     return (
         <Menu theme={darkTheme ? 'dark' : 'light'} mode='inline' className='menu-bar'>
 
-      <Menu.Item key='inicio' icon={<HomeOutlined/>}> <Link to='/dashboard'>Inicio</Link></Menu.Item>
+      <Menu.Item key='inicio' icon={<HomeOutlined/>}> <Link to='/screenmain'>Inicio</Link></Menu.Item>
       <Menu.Item key='miplan' icon={<AppstoreOutlined/>}><Link to='/detallesuser'>Mi plan</Link></Menu.Item>
       <Menu.SubMenu key='historial' icon={<BarsOutlined/>} 
         title='Historial'> 

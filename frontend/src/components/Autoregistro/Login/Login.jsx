@@ -39,7 +39,20 @@ const verificarCredenciales = async (usuario, contrasenia) => {
     const respuesta = await axios.post(url, { usuario, contrasenia });
 
     // La respuesta del servidor puede indicar si las credenciales son válidas
-    return respuesta.data.success; // Asegúrate de ajustar esto según la estructura de tu respuesta
+    const credencialesValidas = respuesta.data.success; // Asegúrate de ajustar esto según la estructura de tu respuesta
+
+    if (credencialesValidas) {
+      // Si las credenciales son válidas, obtén el DNI del usuario
+      const urlDNI = `http://localhost:3002/getDNI/${usuario}`;
+      const respuestaDNI = await axios.get(urlDNI);
+      const dni = respuestaDNI.data.dni; // Asegúrate de ajustar esto según la estructura de tu respuesta
+
+      // Devuelve tanto las credenciales válidas como el DNI del usuario
+      return { credencialesValidas, dni };
+    } else {
+      // Si las credenciales no son válidas, devuelve solo las credenciales válidas
+      return { credencialesValidas };
+    }
 
   } catch (error) {
     console.error("Error al verificar las credenciales:", error);

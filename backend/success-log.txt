@@ -31,3 +31,16 @@
 [2023-12-01T03:53:42.920Z] Success: Inicio de sesión exitoso
 [2023-12-01T03:59:54.837Z] Success: Registro de usuario exitoso
 [2023-12-01T04:17:44.682Z] Success: Registro de usuario exitoso
+[2023-12-01T14:31:00.043Z] Success: Inicio de sesión exitoso
+[2023-12-01T17:16:32.197Z] Success: Inicio de sesión exitoso
+[2023-12-01T18:04:04.713Z] Success: Inicio de sesión exitoso
+[2023-12-01T18:04:17.063Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
+[2023-12-01T18:04:17.064Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
+[2023-12-01T18:04:17.591Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-01T18:04:17.592Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-01T18:04:18.212Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-01T18:04:18.213Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-01T18:04:18.814Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-01T18:04:18.815Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-01T18:04:19.046Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
+[2023-12-01T18:04:19.046Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.

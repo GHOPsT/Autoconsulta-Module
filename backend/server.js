@@ -609,7 +609,7 @@ app.get('/clientes/solicitudes/:dni', async (req, res) => {
 
 
 app.post('/registro', async (req, res) => {
-  const { dni, usuario, contrasenia, nombre, apellido, fechan, telefono, correo, departamento, provincia, distrito } = req.body;
+  const { dni, usuario, contrasenia, nombre, apellido, fechanac, telefono, correo, departamento, distrito } = req.body;
   
   try {
     // Iniciar transacción
@@ -621,13 +621,12 @@ app.post('/registro', async (req, res) => {
 
     // Insertar en la tabla secundaria
     const queryDetallesUser = `
-    INSERT INTO detallesUser (dni, nombre, apellido, fechan, telefono, correo, departamento, provincia, distrito) 
-    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+    INSERT INTO detallesUser (dni, nombre, apellido, fechanac, telefono, correo, departamento, distrito) 
+    VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
     ON CONFLICT (dni) 
-    DO UPDATE SET nombre = $2, apellido = $3, fechan = $4, telefono = $5, correo = $6, departamento = $7, provincia = $8, distrito = $9
-    `;
+    DO UPDATE SET nombre = $2, apellido = $3, fechanac = $4, telefono = $5, correo = $6, departamento = $7, distrito = $8`;
 
-    await db.query(queryDetallesUser, [dni, nombre, apellido, fechan, telefono, correo, departamento, provincia, distrito]);
+    await db.query(queryDetallesUser, [dni, nombre, apellido, fechanac, telefono, correo, departamento, distrito]);
 
     // Confirmar transacción
     await db.query('COMMIT');
@@ -640,8 +639,6 @@ app.post('/registro', async (req, res) => {
     res.status(500).json({ mensaje: 'Error al registrar usuario y detalles del usuario', error: error.message });
   }
 });
-
-
 
 
 app.post('/login', async (req, res) => {
@@ -689,6 +686,53 @@ app.post('/login', async (req, res) => {
     res.status(500).json({ success: false, mensaje: 'Error en el servidor' });
   }
 });
+
+app.get('/usuario/:dni', async (req, res) => {
+  const { dni } = req.params;
+  
+  try {
+    // Consultar los datos del usuario
+    const queryUsers = 'SELECT * FROM users WHERE dni = $1';
+    const resultUsers = await db.query(queryUsers, [dni]);
+    const usuario = resultUsers.rows[0];
+
+    // Consultar los detalles del usuario
+    const queryDetallesUser = 'SELECT * FROM detallesUser WHERE dni = $1';
+    const resultDetallesUser = await db.query(queryDetallesUser, [dni]);
+    const detallesUsuario = resultDetallesUser.rows[0];
+
+    // Combinar los datos del usuario y los detalles del usuario
+    const datosCompletos = { ...usuario, ...detallesUsuario };
+
+    res.status(200).json(datosCompletos);
+  } catch (error) {
+    console.error('Error al obtener los datos del usuario:', error);
+    res.status(500).json({ mensaje: 'Error al obtener los datos del usuario', error: error.message });
+  }
+});
+
+app.get('/getDNI/:usuario', async (req, res) => {
+  const { usuario } = req.params;
+
+  try {
+    // Utiliza una consulta preparada para evitar ataques de SQL injection
+    const query = 'SELECT dni FROM users WHERE usuario = $1';
+    const result = await db.query(query, [usuario]);
+
+    if (result.rows.length > 0) {
+      // Usuario encontrado, devuelve el DNI
+      const dni = result.rows[0].dni;
+      res.status(200).json({ success: true, dni });
+    } else {
+      // Usuario no encontrado
+      res.status(404).json({ success: false, mensaje: 'Usuario no encontrado' });
+    }
+  } catch (error) {
+    console.error('Error al ejecutar la consulta:', error);
+    res.status(500).json({ success: false, mensaje: 'Error en el servidor' });
+  }
+});
+
 
 app.listen(port, () => {
   console.log(`Servidor backend en el puerto ${port}`);

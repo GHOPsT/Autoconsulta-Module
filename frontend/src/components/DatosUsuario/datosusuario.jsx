@@ -1,32 +1,36 @@
-import React from 'react';
-import { Avatar, List } from 'antd';
-import { Breadcrumb } from 'antd';
+import React, { useEffect, useState } from 'react';
+import { Avatar, List, Breadcrumb } from 'antd';
 import { HomeOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 const DatosUsuario = () => {
-  const data = [
-    {
-      title: 'Ant Design Title 1',
-      description:
-        'Ant Design, a design language for background applications, is refined by Ant UED Team',
-    },
-    {
-      title: 'Ant Design Title 2',
-      description:
-        'Ant Design, a design language for background applications, is refined by Ant UED Team',
-    },
-    {
-      title: 'Ant Design Title 3',
-      description:
-        'Ant Design, a design language for background applications, is refined by Ant UED Team',
-    },
-    {
-      title: 'Ant Design Title 4',
-      description:
-        'Ant Design, a design language for background applications, is refined by Ant UED Team',
-    },
-  ];
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const obtenerDatosUsuario = async () => {
+      try {
+        const dni = '12345678'; // Aquí debes poner el DNI del usuario que está ingresando
+        const url = `http://localhost:3002/usuario/${dni}`;
+        const respuesta = await axios.get(url);
+        const datosUsuario = respuesta.data;
+
+        // Aquí puedes formatear los datos del usuario para que se ajusten al formato de tu lista
+        const datosFormateados = [
+          { title: 'DNI', description: datosUsuario.dni },
+          { title: 'Usuario', description: datosUsuario.usuario },
+          { title: 'Nombre', description: datosUsuario.nombre },
+          // Agrega aquí el resto de los datos del usuario
+        ];
+
+        setData(datosFormateados);
+      } catch (error) {
+        console.error('Error al obtener los datos del usuario:', error);
+      }
+    };
+
+    obtenerDatosUsuario();
+  }, []);
 
   return (
     <div className="detallesuser">

@@ -33,13 +33,37 @@ const RegisterUser = async (values) => {
         
         // Verificar la existencia del DNI antes de registrar al usuario
         const dniExistente = await validarDNI(values.dni);
-        console.log("valores del formulario", values);
 
         if (dniExistente) {
+            // Obtener los datos del usuario basándote en el DNI
+            const urlDatosUsuario = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${values.dni}`;
+            const respuestaDatosUsuario = await axios.get(urlDatosUsuario);
+            let datosUsuario = respuestaDatosUsuario.data;
+
+            // Obtener el número de teléfono del servicio externo
+            const urlTelefono = `https://clientemodulocrm.onrender.com/detallesCliente/buscarDetallesDNI/${values.dni}`;
+            const respuestaTelefono = await axios.get(urlTelefono);
+            let telefono = respuestaTelefono.data.contac_externo; 
+
+            // Agregar el número de teléfono a los datos del usuario
+            datosUsuario.telefono = telefono;
+
+            // Formatear la fecha a YYYY-MM-DD
+            if (datosUsuario.fechanac) {
+                const fecha = new Date(datosUsuario.fechanac);
+                const year = fecha.getFullYear();
+                const month = String(fecha.getMonth() + 1).padStart(2, '0'); // Los meses en JavaScript van de 0 a 11, por lo que añadimos 1
+                const day = String(fecha.getDate()).padStart(2, '0');
+                datosUsuario.fechanac = `${year}-${month}-${day}`;
+            }
+
+            // Combinar los valores del formulario con los datos del usuario
+            const datosCompletos = { ...values, ...datosUsuario };
+
             // Enviar todos los datos al backend
-            const url = "http://localhost:3002/registro";
-            const respuesta = await axios.post(url, values);
-            console.log('Usuario registrado con éxito:', respuesta);
+            const urlRegistro = "http://localhost:3002/registro";
+            const respuestaRegistro = await axios.post(urlRegistro, datosCompletos);
+            console.log('Usuario registrado con éxito:', respuestaRegistro);
 
             // Aquí puedes manejar la respuesta del backend según tus necesidades
         } else {
@@ -50,6 +74,7 @@ const RegisterUser = async (values) => {
         console.error('Error al registrar el usuario:', error);
     }
 };
+
 
 const Register = () => {
     const [form] = Form.useForm()
