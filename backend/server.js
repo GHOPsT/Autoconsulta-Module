@@ -118,15 +118,15 @@ const insertarQuejasEnBD = async (quejas, dniCliente, existingQuejaIds) => {
 
     // Realizar la inserción en la base de datos
     const query = `
-      INSERT INTO queja (dni, id_queja, fecha_queja, prod_serv, queja, comentario, estado) 
+      INSERT INTO queja (dni, id_queja, fecha_queja, prod_serv_queja, queja, comentario_queja, estado_queja) 
       VALUES ${marcadores} 
       ON CONFLICT (id_queja) DO UPDATE SET
         dni=EXCLUDED.dni,
         fecha_queja=EXCLUDED.fecha_queja,
-        prod_serv=EXCLUDED.prod_serv,
+        prod_serv_queja=EXCLUDED.prod_serv_queja,
         queja=EXCLUDED.queja,
-        comentario=EXCLUDED.comentario,
-        estado=EXCLUDED.estado
+        comentario_queja=EXCLUDED.comentario_queja,
+        estado_queja=EXCLUDED.estado_queja
     `;
 
     await db.query(query, datosAInsertar.flat());
@@ -344,25 +344,29 @@ const insertarReclamosEnBD = async (reclamos, dniCliente, existingReclamoIds) =>
       reclamo.estado,
       reclamo.tipo_bien_contratado,
       reclamo.fecha_respuesta,
+      reclamo.area_asociada,
+      reclamo.tipo_reclamo,
     ]);
 
     // Crear dinámicamente los marcadores de posición en la consulta
-    const marcadores = datosAInsertar.map((_, i) => `($${i * 9 + 1}, $${i * 9 + 2}, $${i * 9 + 3}, $${i * 9 + 4}, $${i * 9 + 5}, $${i * 9 + 6}, $${i * 9 + 7}, $${i * 9 + 8}, $${i * 9 + 9})`).join(', ');
+    const marcadores = datosAInsertar.map((_, i) => `($${i * 11 + 1}, $${i * 11 + 2}, $${i * 11 + 3}, $${i * 11 + 4}, $${i * 11 + 5}, $${i * 11 + 6}, $${i * 11 + 7}, $${i * 11 + 8}, $${i * 11 + 9} , $${i * 11 + 10}, $${i * 11 + 11})`).join(', ');
 
     // Realizar la inserción en la base de datos
     const query = `
-      INSERT INTO reclamo (dni, id_reclamo, fecha_reclamo, reclamo, comentario, monto, estado, prod_serv, fecha_respuesta) 
-      VALUES ${marcadores} 
-      ON CONFLICT (id_reclamo) DO UPDATE SET
-        dni=EXCLUDED.dni,
+    INSERT INTO reclamo (dni, id_reclamo, fecha_reclamo, reclamo, comentario_reclamo, monto, estado_reclamo, prod_serv_reclamo, fecha_respuesta_reclamo, area_asignada_reclamo, tipo_reclamo) 
+    VALUES ${marcadores}
+    ON CONFLICT (id_reclamo) DO UPDATE 
+    SET dni=EXCLUDED.dni, 
         fecha_reclamo=EXCLUDED.fecha_reclamo,
         reclamo=EXCLUDED.reclamo,
-        comentario=EXCLUDED.comentario,
+        comentario_reclamo=EXCLUDED.comentario_reclamo,
         monto=EXCLUDED.monto,
-        estado=EXCLUDED.estado,
-        prod_serv=EXCLUDED.prod_serv,
-        fecha_respuesta=EXCLUDED.fecha_respuesta
-    `;
+        estado_reclamo=EXCLUDED.estado_reclamo,
+        prod_serv_reclamo=EXCLUDED.prod_serv_reclamo,
+        fecha_respuesta_reclamo=EXCLUDED.fecha_respuesta_reclamo,
+        area_asignada_reclamo=EXCLUDED.area_asignada_reclamo,
+        tipo_reclamo=EXCLUDED.tipo_reclamo
+`;
 
     await db.query(query, datosAInsertar.flat());
 
@@ -383,7 +387,6 @@ const insertarReclamosEnBD = async (reclamos, dniCliente, existingReclamoIds) =>
     }
   }
 };
-
 
 // Función para obtener reclamos por DNI
 const obtenerReclamosPorDni = async (dni) => {
@@ -517,25 +520,27 @@ const insertarSolicitudesEnBD = async (solicitudes, dniCliente, existingSolicitu
       solicitud.detalle_solicitud,
       solicitud.peticion_cliente,
       solicitud.estado,
+      solicitud.area_asociada,
     ]);
 
     // Crear dinámicamente los marcadores de posición en la consulta
-    const marcadores = datosAInsertar.map((_, i) => `($${i * 8 + 1}, $${i * 8 + 2}, $${i * 8 + 3}, $${i * 8 + 4}, $${i * 8 + 5}, $${i * 8 + 6}, $${i * 8 + 7}, $${i * 8 + 8})`).join(', ');
+    const marcadores = datosAInsertar.map((_, i) => `($${i * 9 + 1}, $${i * 9 + 2}, $${i * 9 + 3}, $${i * 9 + 4}, $${i * 9 + 5}, $${i * 9 + 6}, $${i * 9 + 7}, $${i * 9 + 8}, $${i * 9 + 9})`).join(', ');
 
 
 
     // Realizar la inserción en la base de datos
     const query = `
-      INSERT INTO solicitud (dni, id_solicitud, fecha_solicitud, prod_serv, tipo_solicitud, solicitud, comentario, estado) 
+      INSERT INTO solicitud (dni, id_solicitud, fecha_solicitud, prod_serv_solicitud, tipo_solicitud, solicitud, comentario_solicitud, estado_solicitud, area_asignada_solicitud) 
       VALUES ${marcadores} 
       ON CONFLICT (id_solicitud) DO UPDATE SET
         dni=EXCLUDED.dni,
         fecha_solicitud=EXCLUDED.fecha_solicitud,
-        prod_serv=EXCLUDED.prod_serv,
+        prod_serv_solicitud=EXCLUDED.prod_serv_solicitud,
         tipo_solicitud=EXCLUDED.tipo_solicitud,
         solicitud=EXCLUDED.solicitud,
-        comentario=EXCLUDED.comentario,
-        estado=EXCLUDED.estado
+        comentario_solicitud=EXCLUDED.comentario_solicitud,
+        estado_solicitud=EXCLUDED.estado_solicitud,
+        area_asignada_solicitud=EXCLUDED.area_asignada_solicitud
 `;
 
     await db.query(query, datosAInsertar.flat());
@@ -605,6 +610,53 @@ app.get('/clientes/solicitudes/:dni', async (req, res) => {
 });
 
 
+
+
+
+
+app.get('/clientes/general/:dni', async (req, res) => {
+  try {
+    const dni = req.params.dni;
+
+    // Inicializar el arreglo de informacionGeneral
+    let informacionGeneral = [];
+
+    // Obtener reclamos por el DNI del cliente
+    const reclamosResult = await obtenerReclamosPorDni(dni);
+    if (reclamosResult.reclamos && reclamosResult.reclamos.length > 0) {
+      informacionGeneral = [...informacionGeneral, ...reclamosResult.reclamos.map(reclamo => ({ ...reclamo, tipo: 'Reclamo' }))];
+    }
+
+    // Obtener solicitudes por el DNI del cliente
+    const solicitudesResult = await obtenerSolicitudesPorDni(dni);
+    if (solicitudesResult.solicitudes && solicitudesResult.solicitudes.length > 0) {
+      informacionGeneral = [...informacionGeneral, ...solicitudesResult.solicitudes.map(solicitud => ({ ...solicitud, tipo: 'Solicitud' }))];
+    }
+
+    // Obtener quejas por el DNI del cliente
+    const quejasResult = await obtenerQuejasPorDni(dni);
+    if (quejasResult.quejas && quejasResult.quejas.length > 0) {
+      informacionGeneral = [...informacionGeneral, ...quejasResult.quejas.map(queja => ({ ...queja, tipo: 'Queja' }))];
+    }
+
+    // Verificar si al menos una de las consultas fue exitosa y devolvió información
+    if (informacionGeneral.length > 0) {
+      // Log de éxito después de obtener información
+      logSuccess(`Obtención de información general para cliente ${dni} completada con éxito.`);
+
+      // Devuelve la información general
+      res.json({ success: true, informacionGeneral });
+    } else {
+      // Manejar caso donde ninguna consulta devolvió información
+      console.error('Ninguna de las consultas devolvió información.');
+      res.json({ success: true, informacionGeneral: [] });
+    }
+  } catch (error) {
+    console.error('Error al procesar la solicitud:', error);
+    logError(error);
+    res.status(500).json({ success: false, message: 'Error interno del servidor' });
+  }
+});
 
 
 

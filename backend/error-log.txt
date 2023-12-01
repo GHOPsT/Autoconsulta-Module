@@ -137,3 +137,128 @@
 2023-11-30T18:24:52.966Z: undefined
 2023-11-30T18:26:08.448Z: undefined
 2023-11-30T18:26:08.633Z: undefined
+2023-12-01T16:25:49.221Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:367:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T16:30:38.765Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T16:33:04.468Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T16:35:11.198Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T16:41:00.924Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T16:46:29.744Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T16:47:34.152Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T16:52:50.392Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:360:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T16:58:49.559Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T16:59:06.421Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:03:37.779Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:10:09.336Z: error: column "area_asociada" of relation "reclamo" does not exist
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:11:03.358Z: error: column "area_asociada" of relation "reclamo" does not exist
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:11:40.411Z: error: column "area_asociada" of relation "reclamo" does not exist
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:13:14.256Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:13:21.848Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:13:24.004Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:13:45.550Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:14:10.881Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:14:26.134Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:16:20.405Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:17:40.439Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:359:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:18:13.762Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:368:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T17:18:49.396Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:308:34
+2023-12-01T20:57:42.395Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:132:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:211:34
