@@ -3,6 +3,8 @@ import React, { useState, useEffect , useRef} from 'react';
 import Highlighter from 'react-highlight-words'
 import { SearchOutlined } from '@ant-design/icons'
 import moment from 'moment';
+import * as XLSX from 'xlsx';
+
 
 import axios from 'axios';
 
@@ -222,14 +224,45 @@ const QuejasTable = ({ dni , bordered, size, scroll }) => {
     setVisibleColumns((prev) => ({ ...prev, [columnKey]: !prev[columnKey] }));
   };
 
+  
+  const exportToExcel = () => {
+    // Filtrar las columnas visibles para la exportación
+    const columnsToExport = columnsQuejas.filter((column) => !column.hidden);
+  
+    // Obtener solo los datos de las columnas visibles
+    const dataToExport = searchText ? filteredData : dataQuejas;
+  
+    // Crear un array con los datos y encabezados para el archivo Excel
+    const exportData = [columnsToExport.map(column => column.title), ...dataToExport.map(row =>
+      columnsToExport.map(column => row[column.dataIndex])
+    )];
+  
+    // Crear un libro Excel
+    const workbook = XLSX.utils.book_new();
+    const worksheet = XLSX.utils.aoa_to_sheet(exportData);
+  
+    // Añadir la hoja al libro Excel
+    XLSX.utils.book_append_sheet(workbook, worksheet, 'QuejasData');
+  
+    // Descargar el archivo Excel
+    XLSX.writeFile(workbook, 'quejas_data.xlsx');
+  };
+
 
   return (
     <Spin spinning={loading} tip="Cargando...">
-       <div style={{ marginBottom: '1rem'}}>
-          <Button onClick={() => handleToggleColumn('prod_serv_queja')} >
-            VER MÁS
-          </Button>
-      </div>
+       <div style={{ marginBottom: '1rem' }}>
+
+    <Button onClick={() => handleToggleColumn(['prod_serv_queja'])}>
+      VER MÁS
+    </Button>
+
+    <div style={{ display: 'inline-block', marginLeft: '1rem' }}>
+      <Button onClick={exportToExcel}>
+        Exportar a Excel
+      </Button>
+    </div>
+    </div>
 
       <Table
         columns={columnsQuejas.filter((column) => !column.hidden)}

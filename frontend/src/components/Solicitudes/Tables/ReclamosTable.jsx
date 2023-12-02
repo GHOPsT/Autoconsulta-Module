@@ -4,6 +4,8 @@ import Highlighter from 'react-highlight-words'
 import { SearchOutlined } from '@ant-design/icons';
 import axios from 'axios';
 import moment from 'moment';
+import * as XLSX from 'xlsx';
+
 
 import './Table.css'
 
@@ -284,15 +286,41 @@ const ReclamosTable = ({ dni, bordered, size, scroll }) => {
         });
       };
 
+      const exportToExcel = () => {
+        const columnsToExport = columnsReclamos.filter((column) => !column.hidden);
+        const dataToExport = searchText ? filteredData : dataReclamos;
+      
+        const exportData = [columnsToExport.map(column => column.title), ...dataToExport.map(row =>
+          columnsToExport.map(column => row[column.dataIndex])
+        )];
+      
+        const workbook = XLSX.utils.book_new();
+        const worksheet = XLSX.utils.aoa_to_sheet(exportData);
+      
+        XLSX.utils.book_append_sheet(workbook, worksheet, 'ReclamosData');
+      
+        XLSX.writeFile(workbook, 'reclamos_data.xlsx');
+      };
+
+
+
   return (
 
     <Spin spinning={loading} tip="Cargando...">
 
-      <div style={{ marginBottom: '1rem'}}>
-        <Button onClick={() => handleToggleColumn(['prod_serv_reclamo', 'tipo_reclamo','fecha_respuesta_reclamo','area_asignada_reclamo'])}>
+      <div style={{ marginBottom: '1rem' }}>
+
+          <Button onClick={() => handleToggleColumn(['prod_serv_reclamo', 'tipo_reclamo','fecha_respuesta_reclamo','area_asignada_reclamo'])}>
             VER MÁS
-        </Button>
+          </Button>
+
+          <div style={{ display: 'inline-block', marginLeft: '1rem' }}>
+            <Button onClick={exportToExcel}>
+              Exportar a Excel
+            </Button>
+          </div>
       </div>
+
 
       <Table
         columns={columnsReclamos.filter((column) => !column.hidden)}
