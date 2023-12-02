@@ -35,6 +35,16 @@ const RegisterUser = async (values) => {
         const dniExistente = await validarDNI(values.dni);
 
         if (dniExistente) {
+
+            // Obtenemos los datos del enlace proporcionado
+            const url = `https://modulo-ventas.onrender.com/getlineas/${values.dni}`;
+            const response = await axios.get(url);
+            let dataplan = response.data;
+
+            const urlPlan = "http://localhost:3002/registrar-datosplan";
+            const RespuestaRegistroPlan =await axios.post(urlPlan, dataplan);
+            console.log('Usuario registrado con exito: ', RespuestaRegistroPlan);
+
             // Obtener los datos del usuario basándote en el DNI
             const urlDatosUsuario = `https://clientemodulocrm.onrender.com/clientes/buscarPorDNI/${values.dni}`;
             const respuestaDatosUsuario = await axios.get(urlDatosUsuario);

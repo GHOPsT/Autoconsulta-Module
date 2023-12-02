@@ -1282,3 +1282,35 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
     at async insertarSolicitudesEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:544:5)
     at async C:\Users\GHOST\Desktop\diseno\backend\server.js:484:34
+2023-12-02T05:22:36.226Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:130:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:209:34
+2023-12-02T05:22:36.418Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:369:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:306:34
+2023-12-02T05:22:36.600Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:544:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:484:34
+2023-12-02T11:00:33.797Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T11:00:33.992Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T11:00:34.352Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:369:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:306:34

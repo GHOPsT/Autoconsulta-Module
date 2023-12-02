@@ -9,8 +9,8 @@ const Sidebar = ({darkTheme}) => {
       <Menu.Item key='inicio' icon={<HomeOutlined/>}> <Link to='/screenmain'>Inicio</Link></Menu.Item>
       <Menu.Item key='miplan' icon={<AppstoreOutlined/>}><Link to='/detallesuser'>Mi plan</Link></Menu.Item>
       <Menu.Item key='historial' icon={<BarsOutlined/>}><Link to='/solicitudes'>Solicitudes</Link></Menu.Item>
-      <Menu.Item key='pedidos' icon={<AppstoreOutlined/>}><Link to='/reclamos'>Reclamos</Link></Menu.Item>
-      <Menu.Item key='encuesta' icon={<BarsOutlined/>}> <Link to='/pedidos'>Encuesta</Link></Menu.Item>
+      <Menu.Item key='pedidos' icon={<AppstoreOutlined/>}><Link to='/pedidos'>Pedidos</Link></Menu.Item>
+      <Menu.Item key='encuesta' icon={<BarsOutlined/>}> <Link to='/encuesta'>Encuesta</Link></Menu.Item>
     </Menu>
     )
 }

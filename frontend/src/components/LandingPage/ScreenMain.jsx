@@ -9,8 +9,8 @@ import { Content, Header, Footer } from "antd/es/layout/layout";
 import { MenuUnfoldOutlined, MenuFoldOutlined, SettingOutlined } from "@ant-design/icons";
 import { Routes, Route, Link } from "react-router-dom";
 import Solicitudes from "../Solicitudes/Solicitudes";
-import Dashboard from "../Autoregistro/Dashboard/Dashboard";
 import DatosUsuario from "../DatosUsuario/datosusuario";
+import LogoSim from "../../images/LogoSim.png";
 
 const ScreenMain = () => {
   const [darkTheme, setDarkTheme] = useState(true);
@@ -68,12 +68,34 @@ const ScreenMain = () => {
               margin: "24px 16px",
               padding: 24,
               minHeight: 280,
-              background: "black",
+              backgroundImage: `url(${LogoSim})`,
+              backgroundSize: 'contain', // Esto hará que la imagen se ajuste al tamaño del contenedor, manteniendo su aspecto
+              backgroundPosition: 'center', // Esto centrará la imagen en el contenedor
+              backgroundRepeat: 'no-repeat', // Esto evitará que la imagen se repita
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
             }}
           >
+            <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              height: '100%', // Esto asegura que el contenedor ocupe todo el espacio disponible
+            }}>
+              <div style={{
+                color: 'black',
+                fontSize: '5em',
+                textShadow: '-2px 0 white, 0 2px white, 2px 0 white, 0 -2px white', // Esto añade un borde a las letras
+              }}>
+                ¡Bienvenido al Modulo de Autoconsulta!
+              </div>
+            </div>
+
+
+
             <Routes>
               <Route path="/detallesuser" element={<DatosUsuario/>} />
-              <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/solicitudes" element={<Solicitudes />} />
               {/* Agrega otras rutas según sea necesario */}
             </Routes>

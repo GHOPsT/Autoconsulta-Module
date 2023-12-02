@@ -792,6 +792,54 @@ app.get('/getDNI/:usuario', async (req, res) => {
 });
 
 
+app.post('/registrar-datosplan', async (req, res) => {
+  try {
+    // Extrae los datos de la solicitud
+    const { numero, dni, plan, fecha_compra, estado } = req.body;
+
+    // Define la consulta SQL para insertar los datos en la base de datos
+    const query = `
+      INSERT INTO datos_plan (numero, dni, plan, fecha_compra, estado)
+      VALUES ($1, $2, $3, $4, $5)
+      ON CONFLICT (dni)
+      DO UPDATE SET numero = $1, plan = $3, fecha_compra = $4, estado = $5 
+    `;
+
+    // Ejecuta la consulta SQL
+    await db.query(query, [numero, dni, plan, fecha_compra, estado]);
+
+   // Envía una respuesta al cliente
+   res.status(200).json({ message: 'Datos guardados exitosamente' });
+  } catch (error) {
+    console.error('Error al guardar los datos:', error);
+    res.status(500).json({ message: 'Error al guardar los datos' });
+  }
+});
+
+app.get('/obtener-datosplan/:dni', async (req, res) => {
+  try {
+    // Extrae el dni de los parámetros de la ruta
+    const { dni } = req.params;
+
+    // Define la consulta SQL para obtener los datos de la base de datos
+    const query = `
+      SELECT * FROM datos_plan WHERE dni = $1
+    `;
+
+    // Ejecuta la consulta SQL
+    const { rows } = await db.query(query, [dni]);
+
+    // Envía una respuesta al cliente con los datos obtenidos
+    res.status(200).json(rows);
+  } catch (error) {
+    console.error('Error al obtener los datos:', error);
+    res.status(500).json({ message: 'Error al obtener los datos' });
+  }
+});
+
+
+
+
 app.listen(port, () => {
   console.log(`Servidor backend en el puerto ${port}`);
 });

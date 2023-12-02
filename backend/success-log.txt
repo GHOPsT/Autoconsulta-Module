@@ -740,3 +740,39 @@
 [2023-12-02T04:43:52.534Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
 [2023-12-02T04:43:52.694Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
 [2023-12-02T04:43:52.694Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:34.626Z] Success: Inicio de sesión exitoso
+[2023-12-02T05:22:35.486Z] Success: Obtención de quejas de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:35.491Z] Success: Inserción de reclamos de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:35.493Z] Success: Inserción de solicitudes de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:35.649Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T05:22:35.650Z] Success: Obtención de quejas existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:35.821Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T05:22:35.822Z] Success: Inserción de reclamos existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:35.980Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T05:22:35.980Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T05:25:28.500Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T05:25:28.661Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T05:25:28.819Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T05:25:28.830Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T05:26:55.478Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T05:26:55.638Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T05:26:55.798Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T05:26:55.798Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T11:00:33.107Z] Success: Inicio de sesión exitoso
+[2023-12-02T11:00:34.013Z] Success: Inserción de reclamos de la API externa para cliente 12345678 completada con éxito.
+[2023-12-02T11:00:34.176Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T11:00:34.177Z] Success: Inserción de reclamos existentes de la base de datos para cliente 12345678 completada con éxito.
+[2023-12-02T11:01:27.426Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:27.587Z] Success: Obtención de solicitudes por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:27.751Z] Success: Obtención de quejas por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:27.752Z] Success: Obtención de información general para cliente 12345678 completada con éxito.
+[2023-12-02T11:01:33.323Z] Success: Obtención de quejas por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:33.324Z] Success: Obtención de quejas existentes para cliente 12345678 completada con éxito.
+[2023-12-02T11:01:33.803Z] Success: Obtención de solicitudes por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:33.804Z] Success: Obtención de solicitudes existentes para cliente 12345678 completada con éxito.
+[2023-12-02T11:01:34.319Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:34.320Z] Success: Obtención de reclamos existentes para cliente 12345678 completada con éxito.
+[2023-12-02T11:01:35.056Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:35.239Z] Success: Obtención de solicitudes por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:35.443Z] Success: Obtención de quejas por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:35.443Z] Success: Obtención de información general para cliente 12345678 completada con éxito.
