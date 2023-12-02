@@ -652,11 +652,18 @@ app.get('/clientes/general/:dni', async (req, res) => {
   }
 });
 
+app.get('/obtener-pedidos', async (req, res) => {
+  try {
+    const query = 'SELECT id, fecha, estado_actual, descripcion FROM pedidos'; // Añade 'descripcion' a tu consulta
+    const result = await db.query(query);
 
-
-
-
-
+    // Devuelve el array de pedidos encontrados
+    return res.json({ pedidos: result.rows });
+  } catch (error) {
+    console.error('Error al obtener pedidos:', error);
+    return res.status(500).json({ success: false, message: 'Error al obtener pedidos' });
+  }
+});
 
 
 app.post('/registro', async (req, res) => {

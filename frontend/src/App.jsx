@@ -8,6 +8,7 @@ import Login from './components/Autoregistro/Login/Login';
 import Solicitudes from './components/Solicitudes/Solicitudes';
 import DatosUsuario from './components/DatosUsuario/datosusuario';
 import Encuesta from './components/Encuesta/Encuesta';
+import Pedidos from './components/Pedidos/Pedidos';
 import { DNIContext } from '../src/components/Autoregistro/Login/DNIContext';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path = '/solicitudes' element={<Solicitudes dni={dni}/>} />
           <Route path = '/detallesuser' element={<DatosUsuario/>} />
           <Route path = '/encuesta' element={<Encuesta/>} />
+          <Route path = '/pedidos' element={<Pedidos/>} />
         </Routes>
       </Router>
     </DNIContext.Provider>
