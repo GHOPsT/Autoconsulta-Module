@@ -1,0 +1,798 @@
+[2023-12-01T00:50:27.041Z] Success: Inicio de sesión exitoso
+[2023-12-01T00:50:36.423Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-01T00:50:36.423Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-01T00:50:39.107Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-01T00:50:39.107Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-01T00:50:41.243Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
+[2023-12-01T00:50:41.244Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
+[2023-12-01T00:50:42.936Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-01T00:50:42.937Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-01T00:50:43.888Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-01T00:50:43.889Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-01T00:50:44.888Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-01T00:50:44.889Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-01T00:50:45.272Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
+[2023-12-01T00:50:45.273Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
+[2023-12-01T00:51:43.288Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-01T00:51:43.289Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-01T00:51:45.759Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-01T00:51:45.759Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-01T00:51:46.644Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
+[2023-12-01T00:51:46.645Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
+[2023-12-01T00:52:24.087Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-01T00:52:24.088Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-01T00:52:24.594Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-01T00:52:24.595Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-01T01:09:31.828Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-01T01:09:31.829Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-01T01:09:32.202Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
+[2023-12-01T01:09:32.203Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
+[2023-12-01T03:53:36.407Z] Success: Registro de usuario exitoso
+[2023-12-01T03:53:42.920Z] Success: Inicio de sesión exitoso
+[2023-12-01T03:59:54.837Z] Success: Registro de usuario exitoso
+[2023-12-01T04:17:44.682Z] Success: Registro de usuario exitoso
+[2023-12-01T14:31:00.043Z] Success: Inicio de sesión exitoso
+[2023-12-01T17:16:32.197Z] Success: Inicio de sesión exitoso
+[2023-12-01T18:04:04.713Z] Success: Inicio de sesión exitoso
+[2023-12-01T18:04:17.063Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
+[2023-12-01T18:04:17.064Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
+[2023-12-01T18:04:17.591Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-01T18:04:17.592Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-01T18:04:18.212Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-01T18:04:18.213Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-01T18:04:18.814Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-01T18:04:18.815Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-01T18:04:19.046Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
+[2023-12-01T18:04:19.046Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
+[2023-12-01T19:11:22.169Z] Success: Inicio de sesión exitoso
+[2023-12-01T19:21:56.556Z] Success: Inicio de sesión exitoso
+[2023-12-01T19:57:58.037Z] Success: Inicio de sesión exitoso
+[2023-12-01T22:21:58.286Z] Success: Inicio de sesión exitoso
+[2023-12-01T23:18:07.896Z] Success: Inicio de sesión exitoso
+[2023-12-02T00:11:13.697Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:11:13.700Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:11:15.050Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-02T00:11:15.051Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-02T00:11:15.602Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
+[2023-12-02T00:11:15.603Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
+[2023-12-02T00:11:30.322Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:11:30.324Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:11:31.053Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-02T00:11:31.055Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-02T00:11:31.735Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
+[2023-12-02T00:11:31.736Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
+[2023-12-02T00:13:15.716Z] Success: Inicio de sesión exitoso
+[2023-12-02T00:14:21.736Z] Success: Inicio de sesión exitoso
+[2023-12-02T00:18:21.204Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:18:21.384Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:18:21.560Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:18:21.561Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:18:25.508Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:18:25.686Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:18:25.867Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:18:25.869Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:18:27.776Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:18:27.965Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:18:28.145Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:18:28.146Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:18:29.061Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:18:29.062Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:21:28.322Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:21:28.501Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:21:28.683Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:21:28.685Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:21:30.798Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:21:30.799Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:21:32.204Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-02T00:21:32.206Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-02T00:21:33.034Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:21:33.037Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:21:36.797Z] Success: Obtención de reclamos por DNI 99887766 completada con éxito.
+[2023-12-02T00:21:36.798Z] Success: Obtención de reclamos existentes para cliente 99887766 completada con éxito.
+[2023-12-02T00:21:38.289Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-02T00:21:38.291Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-02T00:21:39.058Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:21:39.061Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:21:41.732Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:21:41.913Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:21:42.095Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:21:42.097Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:35:38.085Z] Success: Inicio de sesión exitoso
+[2023-12-02T00:35:42.121Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:35:42.297Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:35:42.472Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:35:42.474Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:35:43.544Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:35:43.549Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:35:47.471Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-02T00:35:47.474Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-02T00:35:48.575Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:35:48.577Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:35:55.235Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:35:55.413Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:35:55.588Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:35:55.590Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:35:56.306Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:35:56.308Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:37:15.338Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:37:15.515Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:37:15.710Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:37:15.712Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:15.093Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:15.094Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:16.510Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:16.513Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:17.795Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:17.797Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:19.039Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:19.041Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:19.747Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:19.748Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:20.921Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:20.922Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:23.078Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:23.255Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:23.438Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:23.440Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:27.007Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:27.008Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:27.682Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:27.683Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:28.545Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:28.546Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:29.327Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:29.330Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:38:29.678Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:38:29.681Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:44:50.427Z] Success: Inicio de sesión exitoso
+[2023-12-02T00:44:52.811Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:44:52.992Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:44:53.177Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:44:53.179Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:44:55.406Z] Success: Obtención de quejas por DNI 12345678 completada con éxito.
+[2023-12-02T00:44:55.407Z] Success: Obtención de quejas existentes para cliente 12345678 completada con éxito.
+[2023-12-02T00:44:57.009Z] Success: Obtención de solicitudes por DNI 12345678 completada con éxito.
+[2023-12-02T00:44:57.011Z] Success: Obtención de solicitudes existentes para cliente 12345678 completada con éxito.
+[2023-12-02T00:44:58.031Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T00:44:58.033Z] Success: Obtención de reclamos existentes para cliente 12345678 completada con éxito.
+[2023-12-02T00:45:00.303Z] Success: Obtención de quejas por DNI 12345678 completada con éxito.
+[2023-12-02T00:45:00.308Z] Success: Obtención de quejas existentes para cliente 12345678 completada con éxito.
+[2023-12-02T00:45:01.239Z] Success: Obtención de solicitudes por DNI 12345678 completada con éxito.
+[2023-12-02T00:45:01.241Z] Success: Obtención de solicitudes existentes para cliente 12345678 completada con éxito.
+[2023-12-02T00:45:02.109Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T00:45:02.111Z] Success: Obtención de reclamos existentes para cliente 12345678 completada con éxito.
+[2023-12-02T00:45:03.018Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:45:03.202Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:45:03.380Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:45:03.381Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:47:07.108Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T00:47:07.292Z] Success: Obtención de solicitudes por DNI 12345678 completada con éxito.
+[2023-12-02T00:47:07.467Z] Success: Obtención de quejas por DNI 12345678 completada con éxito.
+[2023-12-02T00:47:52.340Z] Success: Inicio de sesión exitoso
+[2023-12-02T00:47:54.442Z] Success: Obtención de reclamos por DNI 78901211 completada con éxito.
+[2023-12-02T00:47:54.620Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-02T00:47:54.795Z] Success: Obtención de quejas por DNI 78901211 completada con éxito.
+[2023-12-02T00:47:54.796Z] Success: Obtención de información general para cliente 78901211 completada con éxito.
+[2023-12-02T00:47:57.335Z] Success: Obtención de quejas por DNI 78901211 completada con éxito.
+[2023-12-02T00:47:57.337Z] Success: Obtención de quejas existentes para cliente 78901211 completada con éxito.
+[2023-12-02T00:47:58.175Z] Success: Obtención de solicitudes por DNI 78901211 completada con éxito.
+[2023-12-02T00:47:58.177Z] Success: Obtención de solicitudes existentes para cliente 78901211 completada con éxito.
+[2023-12-02T00:47:59.012Z] Success: Obtención de reclamos por DNI 78901211 completada con éxito.
+[2023-12-02T00:47:59.013Z] Success: Obtención de reclamos existentes para cliente 78901211 completada con éxito.
+[2023-12-02T00:49:06.798Z] Success: Inicio de sesión exitoso
+[2023-12-02T00:49:09.689Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T00:49:09.866Z] Success: Obtención de solicitudes por DNI 12345678 completada con éxito.
+[2023-12-02T00:49:10.044Z] Success: Obtención de quejas por DNI 12345678 completada con éxito.
+[2023-12-02T00:49:27.109Z] Success: Obtención de quejas por DNI 12345678 completada con éxito.
+[2023-12-02T00:49:27.110Z] Success: Obtención de quejas existentes para cliente 12345678 completada con éxito.
+[2023-12-02T00:49:28.138Z] Success: Obtención de solicitudes por DNI 12345678 completada con éxito.
+[2023-12-02T00:49:28.143Z] Success: Obtención de solicitudes existentes para cliente 12345678 completada con éxito.
+[2023-12-02T00:49:28.900Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T00:49:28.901Z] Success: Obtención de reclamos existentes para cliente 12345678 completada con éxito.
+[2023-12-02T00:49:51.224Z] Success: Inicio de sesión exitoso
+[2023-12-02T00:49:55.325Z] Success: Obtención de reclamos por DNI 66778899 completada con éxito.
+[2023-12-02T00:49:55.507Z] Success: Obtención de solicitudes por DNI 66778899 completada con éxito.
+[2023-12-02T00:49:55.726Z] Success: Obtención de quejas por DNI 66778899 completada con éxito.
+[2023-12-02T00:49:57.109Z] Success: Obtención de quejas por DNI 66778899 completada con éxito.
+[2023-12-02T00:49:57.113Z] Success: Obtención de quejas existentes para cliente 66778899 completada con éxito.
+[2023-12-02T00:49:57.916Z] Success: Obtención de solicitudes por DNI 66778899 completada con éxito.
+[2023-12-02T00:49:57.918Z] Success: Obtención de solicitudes existentes para cliente 66778899 completada con éxito.
+[2023-12-02T00:49:58.585Z] Success: Obtención de reclamos por DNI 66778899 completada con éxito.
+[2023-12-02T00:49:58.587Z] Success: Obtención de reclamos existentes para cliente 66778899 completada con éxito.
+[2023-12-02T00:50:30.357Z] Success: Inicio de sesión exitoso
+[2023-12-02T00:50:34.521Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:50:34.706Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:50:34.885Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:50:34.889Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:50:41.501Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:50:41.502Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:50:48.829Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:50:48.831Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:50:53.689Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:50:53.692Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:51:07.111Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:07.291Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:07.466Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:07.468Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:51:08.832Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:08.833Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:51:10.102Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:10.279Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:10.457Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:10.460Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:51:12.912Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:12.913Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:51:30.805Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:30.984Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:31.164Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:31.169Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:51:51.571Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:51.758Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:51.934Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:51:51.939Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:52:18.669Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:52:18.847Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:52:19.022Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:52:19.024Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:52:20.662Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:52:20.664Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:52:26.204Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:52:26.411Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:52:26.611Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:52:26.612Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:53:03.165Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:03.343Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:03.632Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:03.634Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:53:13.262Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:13.448Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:13.627Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:13.629Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:53:15.826Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:16.012Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:16.211Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:16.212Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:53:20.956Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:21.135Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:21.315Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:53:21.318Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:54:22.728Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:22.730Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:54:24.067Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:24.069Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:54:24.860Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:24.862Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:54:26.034Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:26.212Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:26.410Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:26.414Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:54:27.987Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:27.988Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:54:28.458Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:28.460Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:54:28.735Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:28.738Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:54:42.607Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:42.609Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:54:43.170Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:43.173Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:54:43.838Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:43.842Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:54:44.643Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:44.821Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:44.999Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:54:45.002Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T00:56:59.352Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:56:59.354Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:56:59.688Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:56:59.689Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T00:57:05.229Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T00:57:05.402Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T00:57:05.623Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T00:57:05.626Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T01:04:05.819Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T01:04:05.821Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T01:04:06.815Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T01:04:06.817Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T01:04:07.729Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T01:04:07.733Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T01:04:09.096Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T01:04:09.098Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T01:04:10.294Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T01:04:10.297Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T01:08:03.274Z] Success: Inicio de sesión exitoso
+[2023-12-02T01:08:09.850Z] Success: Obtención de reclamos por DNI 77101893 completada con éxito.
+[2023-12-02T01:08:10.028Z] Success: Obtención de solicitudes por DNI 77101893 completada con éxito.
+[2023-12-02T01:08:10.215Z] Success: Obtención de quejas por DNI 77101893 completada con éxito.
+[2023-12-02T01:08:11.716Z] Success: Obtención de reclamos por DNI 77101893 completada con éxito.
+[2023-12-02T01:08:11.721Z] Success: Obtención de reclamos existentes para cliente 77101893 completada con éxito.
+[2023-12-02T01:26:39.219Z] Success: Inicio de sesión exitoso
+[2023-12-02T01:26:50.664Z] Success: Obtención de reclamos por DNI 77101893 completada con éxito.
+[2023-12-02T01:26:50.842Z] Success: Obtención de solicitudes por DNI 77101893 completada con éxito.
+[2023-12-02T01:26:51.028Z] Success: Obtención de quejas por DNI 77101893 completada con éxito.
+[2023-12-02T01:26:51.955Z] Success: Obtención de quejas por DNI 77101893 completada con éxito.
+[2023-12-02T01:26:51.959Z] Success: Obtención de quejas existentes para cliente 77101893 completada con éxito.
+[2023-12-02T01:26:53.582Z] Success: Obtención de solicitudes por DNI 77101893 completada con éxito.
+[2023-12-02T01:26:53.583Z] Success: Obtención de solicitudes existentes para cliente 77101893 completada con éxito.
+[2023-12-02T01:26:53.857Z] Success: Obtención de reclamos por DNI 77101893 completada con éxito.
+[2023-12-02T01:26:53.859Z] Success: Obtención de reclamos existentes para cliente 77101893 completada con éxito.
+[2023-12-02T01:26:54.888Z] Success: Obtención de reclamos por DNI 77101893 completada con éxito.
+[2023-12-02T01:26:55.063Z] Success: Obtención de solicitudes por DNI 77101893 completada con éxito.
+[2023-12-02T01:26:55.258Z] Success: Obtención de quejas por DNI 77101893 completada con éxito.
+[2023-12-02T01:29:59.432Z] Success: Obtención de quejas por DNI 77101893 completada con éxito.
+[2023-12-02T01:29:59.434Z] Success: Obtención de quejas existentes para cliente 77101893 completada con éxito.
+[2023-12-02T01:29:59.772Z] Success: Obtención de reclamos por DNI 77101893 completada con éxito.
+[2023-12-02T01:29:59.954Z] Success: Obtención de solicitudes por DNI 77101893 completada con éxito.
+[2023-12-02T01:30:00.127Z] Success: Obtención de quejas por DNI 77101893 completada con éxito.
+[2023-12-02T01:34:00.949Z] Success: Inicio de sesión exitoso
+[2023-12-02T01:34:06.156Z] Success: Obtención de reclamos por DNI 77101893 completada con éxito.
+[2023-12-02T01:34:06.338Z] Success: Obtención de solicitudes por DNI 77101893 completada con éxito.
+[2023-12-02T01:34:06.546Z] Success: Obtención de quejas por DNI 77101893 completada con éxito.
+[2023-12-02T01:34:08.117Z] Success: Obtención de reclamos por DNI 77101893 completada con éxito.
+[2023-12-02T01:34:08.306Z] Success: Obtención de solicitudes por DNI 77101893 completada con éxito.
+[2023-12-02T01:34:08.497Z] Success: Obtención de quejas por DNI 77101893 completada con éxito.
+[2023-12-02T01:34:10.323Z] Success: Obtención de reclamos por DNI 77101893 completada con éxito.
+[2023-12-02T01:34:10.325Z] Success: Obtención de reclamos existentes para cliente 77101893 completada con éxito.
+[2023-12-02T01:37:02.106Z] Success: Inicio de sesión exitoso
+[2023-12-02T01:37:04.282Z] Success: Obtención de reclamos por DNI 68123456 completada con éxito.
+[2023-12-02T01:37:04.439Z] Success: Inserción de solicitudes de la API externa para cliente 68123456 completada con éxito.
+[2023-12-02T01:37:04.470Z] Success: Obtención de solicitudes por DNI 68123456 completada con éxito.
+[2023-12-02T01:37:04.669Z] Success: Obtención de solicitudes por DNI 68123456 completada con éxito.
+[2023-12-02T01:37:04.672Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 68123456 completada con éxito.
+[2023-12-02T01:37:04.856Z] Success: Obtención de quejas por DNI 68123456 completada con éxito.
+[2023-12-02T01:37:05.039Z] Success: Inserción de solicitudes en la base de datos completada con éxito.
+[2023-12-02T01:37:05.042Z] Success: Inserción de solicitudes en la base de datos para cliente 68123456 completada con éxito.
+[2023-12-02T01:37:06.233Z] Success: Obtención de reclamos por DNI 68123456 completada con éxito.
+[2023-12-02T01:37:06.234Z] Success: Obtención de reclamos existentes para cliente 68123456 completada con éxito.
+[2023-12-02T01:37:06.289Z] Success: Inserción de solicitudes de la API externa para cliente 68123456 completada con éxito.
+[2023-12-02T01:37:06.467Z] Success: Obtención de solicitudes por DNI 68123456 completada con éxito.
+[2023-12-02T01:37:06.469Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 68123456 completada con éxito.
+[2023-12-02T01:37:07.119Z] Success: Obtención de reclamos por DNI 68123456 completada con éxito.
+[2023-12-02T01:37:07.210Z] Success: Inserción de solicitudes de la API externa para cliente 68123456 completada con éxito.
+[2023-12-02T01:37:07.299Z] Success: Obtención de solicitudes por DNI 68123456 completada con éxito.
+[2023-12-02T01:37:07.476Z] Success: Obtención de solicitudes por DNI 68123456 completada con éxito.
+[2023-12-02T01:37:07.479Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 68123456 completada con éxito.
+[2023-12-02T01:37:07.673Z] Success: Obtención de quejas por DNI 68123456 completada con éxito.
+[2023-12-02T01:37:07.681Z] Success: Obtención de información general para cliente 68123456 completada con éxito.
+[2023-12-02T01:41:17.715Z] Success: Inicio de sesión exitoso
+[2023-12-02T01:41:20.113Z] Success: Obtención de reclamos por DNI 68123456 completada con éxito.
+[2023-12-02T01:41:20.301Z] Success: Obtención de solicitudes por DNI 68123456 completada con éxito.
+[2023-12-02T01:41:20.385Z] Success: Inserción de solicitudes de la API externa para cliente 68123456 completada con éxito.
+[2023-12-02T01:41:20.484Z] Success: Obtención de quejas por DNI 68123456 completada con éxito.
+[2023-12-02T01:41:20.485Z] Success: Obtención de información general para cliente 68123456 completada con éxito.
+[2023-12-02T01:41:20.661Z] Success: Obtención de solicitudes por DNI 68123456 completada con éxito.
+[2023-12-02T01:41:20.662Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 68123456 completada con éxito.
+[2023-12-02T01:42:07.919Z] Success: Inicio de sesión exitoso
+[2023-12-02T01:42:16.934Z] Success: Obtención de reclamos por DNI 55667788 completada con éxito.
+[2023-12-02T01:42:17.140Z] Success: Obtención de solicitudes por DNI 55667788 completada con éxito.
+[2023-12-02T01:42:17.266Z] Success: Inserción de solicitudes de la API externa para cliente 55667788 completada con éxito.
+[2023-12-02T01:42:17.334Z] Success: Obtención de quejas por DNI 55667788 completada con éxito.
+[2023-12-02T01:42:17.516Z] Success: Obtención de solicitudes por DNI 55667788 completada con éxito.
+[2023-12-02T01:42:17.518Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 55667788 completada con éxito.
+[2023-12-02T01:42:17.696Z] Success: Inserción de solicitudes en la base de datos completada con éxito.
+[2023-12-02T01:42:17.698Z] Success: Inserción de solicitudes en la base de datos para cliente 55667788 completada con éxito.
+[2023-12-02T01:49:58.502Z] Success: Inicio de sesión exitoso
+[2023-12-02T01:49:59.515Z] Success: Inserción de solicitudes de la API externa para cliente 55667788 completada con éxito.
+[2023-12-02T01:49:59.700Z] Success: Obtención de solicitudes por DNI 55667788 completada con éxito.
+[2023-12-02T01:49:59.702Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 55667788 completada con éxito.
+[2023-12-02T01:50:00.838Z] Success: Obtención de reclamos por DNI 55667788 completada con éxito.
+[2023-12-02T01:50:01.019Z] Success: Obtención de solicitudes por DNI 55667788 completada con éxito.
+[2023-12-02T01:50:01.196Z] Success: Obtención de quejas por DNI 55667788 completada con éxito.
+[2023-12-02T01:50:01.198Z] Success: Obtención de información general para cliente 55667788 completada con éxito.
+[2023-12-02T01:50:01.326Z] Success: Inserción de solicitudes de la API externa para cliente 55667788 completada con éxito.
+[2023-12-02T01:50:01.510Z] Success: Obtención de solicitudes por DNI 55667788 completada con éxito.
+[2023-12-02T01:50:01.512Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 55667788 completada con éxito.
+[2023-12-02T01:53:26.493Z] Success: Inicio de sesión exitoso
+[2023-12-02T01:53:27.197Z] Success: Inserción de solicitudes de la API externa para cliente 33445522 completada con éxito.
+[2023-12-02T01:53:27.369Z] Success: Obtención de solicitudes por DNI 33445522 completada con éxito.
+[2023-12-02T01:53:27.371Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445522 completada con éxito.
+[2023-12-02T01:53:27.566Z] Success: Inserción de solicitudes en la base de datos completada con éxito.
+[2023-12-02T01:53:27.568Z] Success: Inserción de solicitudes en la base de datos para cliente 33445522 completada con éxito.
+[2023-12-02T01:53:37.648Z] Success: Obtención de reclamos por DNI 33445522 completada con éxito.
+[2023-12-02T01:53:37.826Z] Success: Obtención de solicitudes por DNI 33445522 completada con éxito.
+[2023-12-02T01:53:38.007Z] Success: Obtención de quejas por DNI 33445522 completada con éxito.
+[2023-12-02T01:53:38.009Z] Success: Obtención de información general para cliente 33445522 completada con éxito.
+[2023-12-02T01:53:38.237Z] Success: Inserción de solicitudes de la API externa para cliente 33445522 completada con éxito.
+[2023-12-02T01:53:38.417Z] Success: Obtención de solicitudes por DNI 33445522 completada con éxito.
+[2023-12-02T01:53:38.422Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445522 completada con éxito.
+[2023-12-02T02:03:46.145Z] Success: Obtención de quejas por DNI 33445522 completada con éxito.
+[2023-12-02T02:03:46.152Z] Success: Obtención de quejas existentes para cliente 33445522 completada con éxito.
+[2023-12-02T02:03:50.423Z] Success: Obtención de solicitudes por DNI 33445522 completada con éxito.
+[2023-12-02T02:03:50.428Z] Success: Obtención de solicitudes existentes para cliente 33445522 completada con éxito.
+[2023-12-02T02:03:51.316Z] Success: Obtención de reclamos por DNI 33445522 completada con éxito.
+[2023-12-02T02:03:51.498Z] Success: Obtención de solicitudes por DNI 33445522 completada con éxito.
+[2023-12-02T02:03:51.671Z] Success: Obtención de quejas por DNI 33445522 completada con éxito.
+[2023-12-02T02:03:51.674Z] Success: Obtención de información general para cliente 33445522 completada con éxito.
+[2023-12-02T02:05:02.988Z] Success: Inicio de sesión exitoso
+[2023-12-02T02:05:04.574Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:05:04.762Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:05:04.764Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:05:04.950Z] Success: Inserción de quejas en la base de datos completada con éxito.
+[2023-12-02T02:05:04.954Z] Success: Inserción de quejas en la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:05:06.846Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:05:07.062Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:05:07.248Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:05:07.250Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:05:09.624Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:05:09.625Z] Success: Obtención de quejas existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:05:12.760Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:05:12.765Z] Success: Obtención de solicitudes existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:05:14.226Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:05:14.228Z] Success: Obtención de reclamos existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:05:15.917Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:05:15.918Z] Success: Obtención de quejas existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:05:25.528Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:05:25.704Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:05:25.881Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:05:25.882Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:11:59.314Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:11:59.497Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:11:59.682Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:11:59.684Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:23:49.628Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:23:49.808Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:23:49.809Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:23:51.456Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:23:51.457Z] Success: Obtención de quejas existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:23:53.150Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:23:53.329Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:23:53.506Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:23:53.508Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:24:12.709Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:24:12.946Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:24:12.948Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:25:31.862Z] Success: Inicio de sesión exitoso
+[2023-12-02T02:25:32.780Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:25:32.958Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:25:32.960Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:25:35.087Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:25:35.268Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:25:35.445Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:25:35.448Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:25:42.243Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:25:42.245Z] Success: Obtención de solicitudes existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:25:43.112Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:25:43.114Z] Success: Obtención de reclamos existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:25:43.887Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:25:43.891Z] Success: Obtención de quejas existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:25:44.720Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:25:44.926Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:25:45.115Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:25:45.116Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:30:57.155Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:30:57.359Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:30:57.540Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:30:57.544Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:31:09.915Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:31:10.153Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:31:10.159Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:33:07.753Z] Success: Inicio de sesión exitoso
+[2023-12-02T02:33:08.327Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:33:08.519Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:33:08.524Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:33:10.328Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:33:10.515Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:33:10.694Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:33:10.696Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:38:54.347Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:38:54.528Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:38:54.530Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:38:55.751Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:38:55.978Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:38:55.983Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:38:56.939Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:38:57.238Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:38:57.239Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:38:58.173Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:38:58.413Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:38:58.428Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:38:58.997Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:38:59.180Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:38:59.181Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:45:47.844Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:45:47.846Z] Success: Obtención de quejas existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:45:48.947Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:45:49.129Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:45:49.306Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:45:49.310Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:45:52.130Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:45:52.131Z] Success: Obtención de solicitudes existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:45:53.626Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:45:53.810Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:45:54.008Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:45:54.009Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:49:03.557Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:49:03.559Z] Success: Obtención de quejas existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:49:04.851Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:49:04.852Z] Success: Obtención de solicitudes existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:49:05.682Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:49:05.684Z] Success: Obtención de reclamos existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:49:07.069Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:49:07.071Z] Success: Obtención de quejas existentes para cliente 22334455 completada con éxito.
+[2023-12-02T02:49:08.146Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:49:08.330Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:49:08.506Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:49:48.850Z] Success: Inicio de sesión exitoso
+[2023-12-02T02:49:49.665Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:49:49.845Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:49:49.846Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:49:50.026Z] Success: Inserción de quejas en la base de datos completada con éxito.
+[2023-12-02T02:49:50.027Z] Success: Inserción de quejas en la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:49:51.417Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:49:51.597Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:49:51.779Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:49:51.780Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:54:07.932Z] Success: Inicio de sesión exitoso
+[2023-12-02T02:54:08.528Z] Success: Obtención de quejas de la API externa para cliente 22334455 completada con éxito.
+[2023-12-02T02:54:08.784Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:54:08.788Z] Success: Obtención de quejas existentes de la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:54:08.992Z] Success: Inserción de quejas en la base de datos completada con éxito.
+[2023-12-02T02:54:08.998Z] Success: Inserción de quejas en la base de datos para cliente 22334455 completada con éxito.
+[2023-12-02T02:54:10.189Z] Success: Obtención de reclamos por DNI 22334455 completada con éxito.
+[2023-12-02T02:54:10.390Z] Success: Obtención de solicitudes por DNI 22334455 completada con éxito.
+[2023-12-02T02:54:10.571Z] Success: Obtención de quejas por DNI 22334455 completada con éxito.
+[2023-12-02T02:54:10.572Z] Success: Obtención de información general para cliente 22334455 completada con éxito.
+[2023-12-02T02:56:41.910Z] Success: Inicio de sesión exitoso
+[2023-12-02T02:56:42.555Z] Success: Obtención de quejas de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T02:56:42.640Z] Success: Inserción de reclamos de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T02:56:42.659Z] Success: Inserción de solicitudes de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T02:56:42.732Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T02:56:42.734Z] Success: Obtención de quejas existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T02:56:42.911Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T02:56:42.913Z] Success: Inserción de reclamos existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T02:56:43.088Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T02:56:43.090Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T02:56:43.286Z] Success: Inserción de quejas en la base de datos completada con éxito.
+[2023-12-02T02:56:43.287Z] Success: Inserción de quejas en la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T02:56:47.164Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T02:56:47.360Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T02:56:47.541Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T02:56:47.543Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T02:56:50.386Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T02:56:50.387Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T02:57:35.402Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T02:57:35.583Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T02:57:35.770Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T02:57:35.772Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T02:57:36.986Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T02:57:36.989Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T02:57:44.195Z] Success: Obtención de quejas de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T02:57:44.379Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T02:57:44.381Z] Success: Obtención de quejas existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T02:57:44.561Z] Success: Inserción de quejas en la base de datos completada con éxito.
+[2023-12-02T02:57:44.562Z] Success: Inserción de quejas en la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T02:57:45.257Z] Success: Inserción de reclamos de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T02:57:45.433Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T02:57:45.435Z] Success: Inserción de reclamos existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T02:57:46.533Z] Success: Inserción de solicitudes de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T02:57:46.711Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T02:57:46.713Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T02:57:56.963Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T02:57:57.163Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T02:57:57.347Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T02:57:57.349Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T02:57:58.297Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T02:57:58.299Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T02:59:49.669Z] Success: Inicio de sesión exitoso
+[2023-12-02T02:59:50.359Z] Success: Inserción de solicitudes de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T02:59:50.421Z] Success: Obtención de quejas de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T02:59:50.471Z] Success: Inserción de reclamos de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T02:59:50.542Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T02:59:50.543Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T02:59:50.722Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T02:59:50.724Z] Success: Obtención de quejas existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T02:59:50.903Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T02:59:50.904Z] Success: Inserción de reclamos existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T02:59:51.255Z] Success: Inserción de quejas en la base de datos completada con éxito.
+[2023-12-02T02:59:51.257Z] Success: Inserción de quejas en la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:01.515Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T03:00:01.692Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:00:01.871Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:00:01.872Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:03.476Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:00:03.478Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:44.310Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:00:44.312Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:45.299Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:00:45.301Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:54.395Z] Success: Obtención de quejas de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:54.576Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:00:54.581Z] Success: Obtención de quejas existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:54.772Z] Success: Inserción de quejas en la base de datos completada con éxito.
+[2023-12-02T03:00:54.774Z] Success: Inserción de quejas en la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:55.142Z] Success: Inserción de reclamos de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:55.320Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T03:00:55.321Z] Success: Inserción de reclamos existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:55.875Z] Success: Inserción de solicitudes de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:56.052Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:00:56.054Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:56.272Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:00:56.273Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:00:57.163Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:00:57.164Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:02:21.441Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:02:21.443Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:02:23.232Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T03:02:23.233Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:02:24.829Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T03:02:25.014Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:02:25.204Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:02:25.205Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T03:02:31.693Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:02:31.694Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:02:34.645Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:02:34.650Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:02:36.279Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T03:02:36.281Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:03:18.923Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T03:03:19.106Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:03:19.279Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:03:19.280Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T03:03:20.495Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:03:20.496Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:03:30.660Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:03:30.662Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:03:31.669Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T03:03:31.670Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:24:33.841Z] Success: Inicio de sesión exitoso
+[2023-12-02T03:24:35.219Z] Success: Inserción de reclamos de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T03:24:35.318Z] Success: Inserción de solicitudes de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T03:24:35.413Z] Success: Obtención de quejas de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T03:24:35.491Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:35.514Z] Success: Inserción de reclamos existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T03:24:35.688Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:35.693Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T03:24:35.876Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:35.878Z] Success: Obtención de quejas existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T03:24:39.241Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:39.442Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:39.624Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:39.626Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T03:24:43.736Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:43.738Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:24:44.673Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:44.676Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:24:45.516Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:45.518Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T03:24:46.874Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:47.072Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:47.272Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T03:24:47.274Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:24.913Z] Success: Inicio de sesión exitoso
+[2023-12-02T04:23:25.621Z] Success: Obtención de quejas de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:25.809Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:25.810Z] Success: Obtención de quejas existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:25.885Z] Success: Inserción de reclamos de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:25.944Z] Success: Inserción de solicitudes de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:26.133Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:26.151Z] Success: Inserción de reclamos existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:26.317Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:26.318Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:30.173Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:30.331Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:30.491Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:30.493Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:35.189Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:35.189Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:37.221Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:37.222Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:38.780Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:38.781Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:39.828Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:39.987Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:40.145Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:40.146Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:41.305Z] Success: Obtención de quejas de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:41.464Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:41.464Z] Success: Obtención de quejas existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:42.082Z] Success: Inserción de reclamos de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:42.241Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:42.242Z] Success: Inserción de reclamos existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:42.672Z] Success: Inserción de solicitudes de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T04:23:42.831Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:23:42.832Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:43.180Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:43.181Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:43.986Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:43.987Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:44.709Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:44.709Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:45.909Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:45.910Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:47.053Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:47.054Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:47.853Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:48.013Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:48.171Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:48.172Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:49.677Z] Success: Obtención de quejas de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:49.835Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:49.836Z] Success: Obtención de quejas existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:49.995Z] Success: Inserción de quejas en la base de datos completada con éxito.
+[2023-12-02T04:24:49.996Z] Success: Inserción de quejas en la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:50.332Z] Success: Inserción de reclamos de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:50.491Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:50.491Z] Success: Inserción de reclamos existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:50.988Z] Success: Inserción de solicitudes de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:51.146Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:51.147Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:52.055Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:52.056Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:52.864Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:53.036Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:53.196Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:53.196Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:55.024Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:55.025Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:55.402Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:55.403Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:24:55.809Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:24:55.810Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T04:39:16.124Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:39:16.284Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:39:16.443Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:39:16.444Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T04:39:21.615Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:39:21.772Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:39:21.930Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:39:21.931Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T04:43:52.374Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T04:43:52.534Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T04:43:52.694Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T04:43:52.694Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:34.626Z] Success: Inicio de sesión exitoso
+[2023-12-02T05:22:35.486Z] Success: Obtención de quejas de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:35.491Z] Success: Inserción de reclamos de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:35.493Z] Success: Inserción de solicitudes de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:35.649Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T05:22:35.650Z] Success: Obtención de quejas existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:35.821Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T05:22:35.822Z] Success: Inserción de reclamos existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T05:22:35.980Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T05:22:35.980Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T05:25:28.500Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T05:25:28.661Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T05:25:28.819Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T05:25:28.830Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T05:26:55.478Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T05:26:55.638Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T05:26:55.798Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T05:26:55.798Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T11:00:33.107Z] Success: Inicio de sesión exitoso
+[2023-12-02T11:00:34.013Z] Success: Inserción de reclamos de la API externa para cliente 12345678 completada con éxito.
+[2023-12-02T11:00:34.176Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T11:00:34.177Z] Success: Inserción de reclamos existentes de la base de datos para cliente 12345678 completada con éxito.
+[2023-12-02T11:01:27.426Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:27.587Z] Success: Obtención de solicitudes por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:27.751Z] Success: Obtención de quejas por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:27.752Z] Success: Obtención de información general para cliente 12345678 completada con éxito.
+[2023-12-02T11:01:33.323Z] Success: Obtención de quejas por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:33.324Z] Success: Obtención de quejas existentes para cliente 12345678 completada con éxito.
+[2023-12-02T11:01:33.803Z] Success: Obtención de solicitudes por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:33.804Z] Success: Obtención de solicitudes existentes para cliente 12345678 completada con éxito.
+[2023-12-02T11:01:34.319Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:34.320Z] Success: Obtención de reclamos existentes para cliente 12345678 completada con éxito.
+[2023-12-02T11:01:35.056Z] Success: Obtención de reclamos por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:35.239Z] Success: Obtención de solicitudes por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:35.443Z] Success: Obtención de quejas por DNI 12345678 completada con éxito.
+[2023-12-02T11:01:35.443Z] Success: Obtención de información general para cliente 12345678 completada con éxito.
+[2023-12-02T13:54:34.851Z] Success: Inicio de sesión exitoso
+[2023-12-02T13:54:35.430Z] Success: Inserción de solicitudes de la API externa para cliente 33445566 completada con éxito.
+[2023-12-02T13:54:35.615Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T13:54:35.616Z] Success: Inserción de solicitudes existentes de la base de datos para cliente 33445566 completada con éxito.
+[2023-12-02T13:54:38.840Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T13:54:38.996Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T13:54:39.152Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T13:54:39.154Z] Success: Obtención de información general para cliente 33445566 completada con éxito.
+[2023-12-02T13:54:44.557Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T13:54:44.558Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T13:54:47.850Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T13:54:47.850Z] Success: Obtención de reclamos existentes para cliente 33445566 completada con éxito.
+[2023-12-02T13:54:48.375Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T13:54:48.375Z] Success: Obtención de solicitudes existentes para cliente 33445566 completada con éxito.
+[2023-12-02T13:54:48.824Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T13:54:48.825Z] Success: Obtención de quejas existentes para cliente 33445566 completada con éxito.
+[2023-12-02T13:54:49.647Z] Success: Obtención de reclamos por DNI 33445566 completada con éxito.
+[2023-12-02T13:54:49.804Z] Success: Obtención de solicitudes por DNI 33445566 completada con éxito.
+[2023-12-02T13:54:49.960Z] Success: Obtención de quejas por DNI 33445566 completada con éxito.
+[2023-12-02T13:54:49.961Z] Success: Obtención de información general para cliente 33445566 completada con éxito.

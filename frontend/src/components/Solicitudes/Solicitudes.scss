@@ -7,11 +7,25 @@
         margin-bottom: 1rem;
     }
   
-    .options-container{
-        padding: .5rem;
+    .panel-container{
 
-        h2{
-            margin-bottom: .5rem;
+        display: flex;
+        justify-content: space-between;  // Esto distribuirá los elementos a lo largo del contenedor
+        align-items: center;
+
+
+        .options-container{
+            padding: .5rem;
+            h2{
+                margin-bottom: .5rem;
+            }
         }
+        .update-container{
+            padding: .5rem;
+            h2{
+                margin-bottom: .5rem;
+            }
+        }
+
     }
 }

@@ -1,0 +1,1335 @@
+2023-11-30T15:55:11.589Z: error: column excluded.peticion_cliente does not exist
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:303:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:245:32
+2023-11-30T15:55:43.777Z: error: column excluded.peticion_cliente does not exist
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:303:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:245:32
+2023-11-30T16:03:44.040Z: error: column excluded.peticion_cliente does not exist
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:303:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:245:32
+2023-11-30T16:17:54.132Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:104:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:162:34
+2023-11-30T16:42:44.334Z: error: column excluded.peticion_cliente does not exist
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:371:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:313:32
+2023-11-30T16:45:53.905Z: error: column excluded.peticion_cliente does not exist
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:371:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:313:32
+2023-11-30T16:50:38.064Z: error: column excluded.peticion_cliente does not exist
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:379:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:311:34
+2023-11-30T16:57:55.237Z: error: relation "reclamos" does not exist
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:394:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:293:28
+2023-11-30T16:57:55.243Z: TypeError: Cannot read properties of undefined (reading 'map')
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:307:60
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-30T17:04:07.064Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:310:34
+2023-11-30T17:06:47.861Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:310:34
+2023-11-30T17:09:07.215Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:310:34
+2023-11-30T17:10:02.329Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:310:34
+2023-11-30T17:13:30.297Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:310:34
+2023-11-30T17:35:50.124Z: error: syntax error at or near "$8"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:539:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:483:34
+2023-11-30T17:38:29.315Z: error: syntax error at or near "$8"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:539:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:483:34
+2023-11-30T17:39:15.452Z: error: syntax error at or near "$8"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:539:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:483:34
+2023-11-30T17:46:02.705Z: error: syntax error at or near "$8"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:539:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:483:34
+2023-11-30T17:47:16.535Z: error: syntax error at or near "$8"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:539:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:483:34
+2023-11-30T17:52:15.747Z: error: syntax error at or near "$8"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:539:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:483:34
+2023-11-30T17:53:06.959Z: error: could not determine data type of parameter $9
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:541:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:483:34
+2023-11-30T17:53:57.739Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:541:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:483:34
+2023-11-30T18:08:07.208Z: undefined
+2023-11-30T18:10:00.435Z: undefined
+2023-11-30T18:10:46.651Z: undefined
+2023-11-30T18:12:04.163Z: undefined
+2023-11-30T18:12:36.145Z: undefined
+2023-11-30T18:14:48.942Z: undefined
+2023-11-30T18:15:33.077Z: undefined
+2023-11-30T18:15:43.057Z: undefined
+2023-11-30T18:15:46.435Z: undefined
+2023-11-30T18:21:25.239Z: undefined
+2023-11-30T18:21:55.597Z: undefined
+2023-11-30T18:22:02.537Z: undefined
+2023-11-30T18:24:09.245Z: undefined
+2023-11-30T18:24:09.248Z: TypeError: Cannot read properties of undefined (reading 'contrasenia')
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:646:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-30T18:24:18.236Z: undefined
+2023-11-30T18:24:18.236Z: TypeError: Cannot read properties of undefined (reading 'contrasenia')
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:646:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-30T18:24:18.421Z: undefined
+2023-11-30T18:24:18.422Z: TypeError: Cannot read properties of undefined (reading 'contrasenia')
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:646:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-30T18:24:18.617Z: undefined
+2023-11-30T18:24:18.618Z: TypeError: Cannot read properties of undefined (reading 'contrasenia')
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\Autoconsulta-Module\backend\server.js:646:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-11-30T18:24:52.966Z: undefined
+2023-11-30T18:26:08.448Z: undefined
+2023-11-30T18:26:08.633Z: undefined
+2023-12-01T04:21:10.904Z: error: duplicate key value violates unique constraint "users_pkey"
+    at Parser.parseErrorMessage (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:39:38)
+    at TLSSocket.<anonymous> (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\index.js:11:42)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-12-01T04:25:54.640Z: error: duplicate key value violates unique constraint "users_pkey"
+    at Parser.parseErrorMessage (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:39:38)
+    at TLSSocket.<anonymous> (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\index.js:11:42)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-12-01T04:35:47.137Z: error: duplicate key value violates unique constraint "users_pkey"
+    at Parser.parseErrorMessage (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:39:38)
+    at TLSSocket.<anonymous> (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\index.js:11:42)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-12-01T04:37:28.271Z: error: duplicate key value violates unique constraint "users_pkey"
+    at Parser.parseErrorMessage (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:39:38)
+    at TLSSocket.<anonymous> (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\index.js:11:42)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-12-01T04:42:29.163Z: error: duplicate key value violates unique constraint "users_pkey"
+    at Parser.parseErrorMessage (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:39:38)
+    at TLSSocket.<anonymous> (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\index.js:11:42)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-12-01T04:48:17.473Z: error: duplicate key value violates unique constraint "users_pkey"
+    at Parser.parseErrorMessage (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:39:38)
+    at TLSSocket.<anonymous> (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\index.js:11:42)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-12-01T05:09:04.754Z: error: duplicate key value violates unique constraint "users_pkey"
+    at Parser.parseErrorMessage (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:287:98)
+    at Parser.handlePacket (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:126:29)
+    at Parser.parse (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\parser.js:39:38)
+    at TLSSocket.<anonymous> (C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg-protocol\dist\index.js:11:42)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10)
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-12-01T14:30:50.438Z: undefined
+2023-12-01T18:03:57.066Z: undefined
+2023-12-01T18:03:59.139Z: undefined
+2023-12-02T00:35:28.349Z: undefined
+2023-12-02T00:37:16.728Z: error: invalid input syntax for type integer: "undefined"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:587:20
+2023-12-02T00:37:16.730Z: undefined
+2023-12-02T00:37:17.564Z: error: invalid input syntax for type integer: "undefined"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:411:20
+2023-12-02T00:37:17.565Z: undefined
+2023-12-02T00:37:19.159Z: error: invalid input syntax for type integer: "undefined"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:587:20
+2023-12-02T00:37:19.160Z: undefined
+2023-12-02T00:44:36.911Z: undefined
+2023-12-02T00:44:40.152Z: undefined
+2023-12-02T00:47:09.402Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T00:47:09.585Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T00:47:09.767Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T00:47:12.149Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:236:20
+2023-12-02T00:47:12.150Z: undefined
+2023-12-02T00:47:13.258Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:587:20
+2023-12-02T00:47:13.259Z: undefined
+2023-12-02T00:47:14.241Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:411:20
+2023-12-02T00:47:14.242Z: undefined
+2023-12-02T01:04:13.636Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:04:13.815Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:04:13.997Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:06:03.583Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:06:03.769Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:06:03.959Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:32:52.951Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:32:53.132Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:32:53.318Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:33:08.721Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:33:42.297Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:236:20
+2023-12-02T01:33:42.298Z: undefined
+2023-12-02T01:33:43.103Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:411:20
+2023-12-02T01:33:43.104Z: undefined
+2023-12-02T01:33:46.234Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:33:46.454Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:33:46.479Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:33:46.732Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:33:47.574Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:411:20
+2023-12-02T01:33:47.575Z: undefined
+2023-12-02T01:34:06.521Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:34:08.493Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:37:06.741Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:543:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:483:34
+2023-12-02T01:37:07.876Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:543:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:483:34
+2023-12-02T01:38:03.569Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:38:03.759Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:38:04.003Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:38:03.939Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:38:05.861Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:38:06.057Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:38:06.075Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:38:06.260Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:38:09.149Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:587:20
+2023-12-02T01:38:09.150Z: undefined
+2023-12-02T01:38:10.676Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:38:10.868Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:38:11.053Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:38:22.701Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:38:22.885Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:38:23.074Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:38:24.610Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:411:20
+2023-12-02T01:38:24.611Z: undefined
+2023-12-02T01:38:25.165Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:587:20
+2023-12-02T01:38:25.167Z: undefined
+2023-12-02T01:38:26.835Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:38:27.034Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:38:27.248Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:38:59.917Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:236:20
+2023-12-02T01:38:59.918Z: undefined
+2023-12-02T01:39:00.766Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:411:20
+2023-12-02T01:39:00.767Z: undefined
+2023-12-02T01:39:01.704Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:587:20
+2023-12-02T01:39:01.706Z: undefined
+2023-12-02T01:39:13.447Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:39:13.713Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:39:13.783Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:39:13.982Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:40:08.100Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:236:20
+2023-12-02T01:40:08.101Z: undefined
+2023-12-02T01:40:11.200Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:40:11.470Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:40:11.529Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:40:11.722Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:41:20.856Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:543:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:483:34
+2023-12-02T01:42:27.891Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:42:28.107Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:42:28.138Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:42:28.349Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:42:32.636Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:587:20
+2023-12-02T01:42:32.637Z: undefined
+2023-12-02T01:42:33.897Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:236:20
+2023-12-02T01:42:33.898Z: undefined
+2023-12-02T01:42:35.102Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:411:20
+2023-12-02T01:42:35.103Z: undefined
+2023-12-02T01:42:35.906Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:42:36.088Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:42:36.274Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:42:37.894Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:42:38.130Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:42:38.150Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:42:38.343Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:42:40.501Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:42:40.750Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:42:40.786Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:42:40.979Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:42:43.013Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:42:43.261Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:42:43.280Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:42:43.465Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:49:49.773Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T01:49:50.055Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T01:49:50.108Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T01:49:50.296Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T01:49:59.883Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:543:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:483:34
+2023-12-02T01:50:01.701Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:543:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:483:34
+2023-12-02T01:53:38.608Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:543:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:483:34
+2023-12-02T02:05:04.128Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:05:04.720Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:05:07.052Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:23:49.612Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:23:49.986Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:23:50.000Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:129:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:208:34
+2023-12-02T02:24:12.695Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:24:12.879Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:24:13.145Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:129:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:208:34
+2023-12-02T02:25:32.589Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:25:33.189Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:25:33.199Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:129:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:208:34
+2023-12-02T02:31:10.024Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:31:10.141Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:31:10.345Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:129:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:208:34
+2023-12-02T02:31:18.791Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T02:31:18.976Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T02:31:19.162Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T02:31:21.403Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:236:20
+2023-12-02T02:31:21.404Z: undefined
+2023-12-02T02:31:22.457Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T02:31:22.663Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T02:31:22.850Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T02:31:23.730Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:587:20
+2023-12-02T02:31:23.731Z: undefined
+2023-12-02T02:31:25.124Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:392:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:618:28
+2023-12-02T02:31:25.308Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:567:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:624:31
+2023-12-02T02:31:25.492Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:151:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:630:26
+2023-12-02T02:31:26.468Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:31:26.746Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:31:26.852Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:33:08.421Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:33:08.516Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:33:08.715Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:129:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:208:34
+2023-12-02T02:38:53.968Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:38:54.149Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:38:54.725Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:129:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:208:34
+2023-12-02T02:38:55.873Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:38:55.975Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:38:56.167Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:129:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:208:34
+2023-12-02T02:38:56.921Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:38:57.045Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:38:57.493Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:129:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:208:34
+2023-12-02T02:38:57.687Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:38:57.908Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:38:58.410Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:38:58.578Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:38:58.624Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:129:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:208:34
+2023-12-02T02:38:59.365Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:129:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:208:34
+2023-12-02T02:49:10.889Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:619:28
+2023-12-02T02:49:11.073Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:625:31
+2023-12-02T02:49:11.261Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:631:26
+2023-12-02T02:49:49.765Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:49:50.171Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:50:01.924Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:619:28
+2023-12-02T02:50:02.105Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:625:31
+2023-12-02T02:50:02.293Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:631:26
+2023-12-02T02:50:17.358Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:619:28
+2023-12-02T02:50:17.553Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:625:31
+2023-12-02T02:50:17.737Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:631:26
+2023-12-02T02:50:18.921Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:237:20
+2023-12-02T02:50:18.922Z: undefined
+2023-12-02T02:50:19.836Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:588:20
+2023-12-02T02:50:19.836Z: undefined
+2023-12-02T02:50:20.857Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:412:20
+2023-12-02T02:50:20.859Z: undefined
+2023-12-02T02:50:22.060Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:619:28
+2023-12-02T02:50:22.244Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:625:31
+2023-12-02T02:50:22.431Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:631:26
+2023-12-02T02:50:28.622Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:619:28
+2023-12-02T02:50:28.806Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:625:31
+2023-12-02T02:50:28.993Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:631:26
+2023-12-02T02:50:30.539Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:619:28
+2023-12-02T02:50:30.730Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:625:31
+2023-12-02T02:50:30.916Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:631:26
+2023-12-02T02:50:33.261Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:237:20
+2023-12-02T02:50:33.262Z: undefined
+2023-12-02T02:50:34.783Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:619:28
+2023-12-02T02:50:34.974Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:625:31
+2023-12-02T02:50:35.154Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:631:26
+2023-12-02T02:51:31.640Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:619:28
+2023-12-02T02:51:31.821Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:625:31
+2023-12-02T02:51:32.012Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:631:26
+2023-12-02T02:51:33.268Z: AxiosError: Request failed with status code 422
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at IncomingMessage.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:53:32.373Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:619:28
+2023-12-02T02:53:32.555Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:625:31
+2023-12-02T02:53:32.737Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:631:26
+2023-12-02T02:53:40.016Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:619:28
+2023-12-02T02:53:40.200Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:625:31
+2023-12-02T02:53:40.380Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:631:26
+2023-12-02T02:54:08.772Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:54:08.912Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:529:35)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T02:55:14.682Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerReclamosPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:393:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:619:28
+2023-12-02T02:55:14.876Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerSolicitudesPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:568:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:625:31
+2023-12-02T02:55:15.063Z: error: invalid input syntax for type integer: "null"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async obtenerQuejasPorDni (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:152:20)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:631:26
+2023-12-02T02:56:43.470Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:306:34
+2023-12-02T02:56:43.652Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:544:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:484:34
+2023-12-02T02:57:45.679Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:306:34
+2023-12-02T02:57:46.898Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:544:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:484:34
+2023-12-02T02:59:51.082Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:544:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:484:34
+2023-12-02T02:59:51.439Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:306:34
+2023-12-02T03:00:55.506Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:306:34
+2023-12-02T03:00:56.469Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:544:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:484:34
+2023-12-02T03:24:36.086Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:369:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:306:34
+2023-12-02T03:24:36.282Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:544:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:484:34
+2023-12-02T03:24:36.487Z: error: syntax error at or near "ON"
+    at C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:130:5)
+    at async C:\Users\usuario.DESKTOP-JTKSPMF\Desktop\asd\backend\server.js:209:34
+2023-12-02T04:23:25.974Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:130:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:209:34
+2023-12-02T04:23:26.480Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:369:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:306:34
+2023-12-02T04:23:26.642Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:544:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:484:34
+2023-12-02T04:23:41.626Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:130:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:209:34
+2023-12-02T04:23:42.403Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:369:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:306:34
+2023-12-02T04:23:42.993Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:544:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:484:34
+2023-12-02T04:24:50.653Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:369:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:306:34
+2023-12-02T04:24:51.308Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:544:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:484:34
+2023-12-02T05:22:36.226Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarQuejasEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:130:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:209:34
+2023-12-02T05:22:36.418Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:369:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:306:34
+2023-12-02T05:22:36.600Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:544:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:484:34
+2023-12-02T11:00:33.797Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T11:00:33.992Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T11:00:34.352Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarReclamosEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:369:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:306:34
+2023-12-02T13:54:23.516Z: undefined
+2023-12-02T13:54:28.444Z: undefined
+2023-12-02T13:54:35.472Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T13:54:35.506Z: AxiosError: Request failed with status code 404
+    at settle (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:1967:12)
+    at BrotliDecompress.handleStreamEnd (C:\Users\GHOST\Desktop\diseno\backend\node_modules\axios\dist\node\axios.cjs:3062:11)
+    at BrotliDecompress.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-12-02T13:54:35.868Z: error: syntax error at or near "ON"
+    at C:\Users\GHOST\Desktop\diseno\backend\node_modules\pg\lib\client.js:526:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async insertarSolicitudesEnBD (C:\Users\GHOST\Desktop\diseno\backend\server.js:544:5)
+    at async C:\Users\GHOST\Desktop\diseno\backend\server.js:484:34

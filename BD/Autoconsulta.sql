@@ -21,8 +21,8 @@ CREATE TABLE solicitud (
 	fecha_solicitud DATE,
 	prod_serv VARCHAR(50),
 	tipo_solicitud VARCHAR(50),
-	solicitud VARCHAR (50),
-	comentario VARCHAR (500),
+	solicitud VARCHAR (1000),
+	comentario VARCHAR (1000),
 	estado VARCHAR (20),
 	FOREIGN KEY (dni) REFERENCES users(dni)
 );
@@ -31,8 +31,8 @@ CREATE TABLE queja (
 	id_queja INT PRIMARY KEY,
 	fecha_queja DATE,
 	prod_serv VARCHAR (50),
-	queja VARCHAR (50),
-	comentario VARCHAR (500),
+	queja VARCHAR (1000),
+	comentario VARCHAR (1000),
 	estado VARCHAR (20),
 	FOREIGN KEY (dni) REFERENCES users(dni)
 );
@@ -40,9 +40,9 @@ CREATE TABLE reclamos (
 	dni INT,
 	id_reclamos INT PRIMARY KEY,
 	fecha_reclamo DATE,
-	reclamo VARCHAR (50),
-	comentario VARCHAR (500),
-	monto INT,
+	reclamo VARCHAR (1000),
+	comentario VARCHAR (1000),
+	monto DECIMAL(10,2),
 	estado VARCHAR (20),
 	FOREIGN KEY (dni) REFERENCES users(dni)
 );

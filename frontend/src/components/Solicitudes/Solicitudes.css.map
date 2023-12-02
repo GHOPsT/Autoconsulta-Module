@@ -1,1 +1,1 @@
-{"version":3,"sources":["Solicitudes.scss","Solicitudes.css"],"names":[],"mappings":"AAAA;EAEI,aAAA;ACAJ;ADEI;EACI,kBAAA;EACA,mBAAA;ACAR;ADGI;EACI,eAAA;ACDR;ADGQ;EACI,qBAAA;ACDZ","file":"Solicitudes.css"}
+{"version":3,"sources":["Solicitudes.scss","Solicitudes.css"],"names":[],"mappings":"AAAA;EAEI,aAAA;ACAJ;ADEI;EACI,kBAAA;EACA,mBAAA;ACAR;ADGI;EAEI,aAAA;EACA,8BAAA;EACA,mBAAA;ACFR;ADKQ;EACI,eAAA;ACHZ;ADIY;EACI,qBAAA;ACFhB;ADKQ;EACI,eAAA;ACHZ;ADIY;EACI,qBAAA;ACFhB","file":"Solicitudes.css"}
