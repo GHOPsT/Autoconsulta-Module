@@ -1,14 +1,13 @@
 import React , { useState, useEffect } from 'react'
 import axios from 'axios';
-import { Card , Layout, Tabs} from 'antd';
-import { HomeOutlined, UserOutlined, MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
+import { Card , Layout } from 'antd';
+import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
 import './Pedidos.css'
 import Logo from '../LandingPage/Sidebar/Logo.jsx';
 import Sidebar from '../LandingPage/Sidebar/Sidebar.jsx';
 import Sider from 'antd/es/layout/Sider.js';
 import { Content, Header, Footer } from 'antd/es/layout/layout.js';
 import PedidosTable from './Tables/PedidosTable'; // Asegúrate de crear este componente
-
 const Pedidos = () => {
   const [collapsed, setCollapsed] = useState(false);
   const [pedidos, setPedidos] = useState([]);

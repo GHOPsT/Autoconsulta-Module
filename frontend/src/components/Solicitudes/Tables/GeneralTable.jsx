@@ -1,20 +1,12 @@
 import { Table , Spin} from 'antd';
 import React , {useState , useEffect} from 'react'
-
 import moment from 'moment';
-
-
 import axios from 'axios'
 import './Table.css'
 
-
 const GeneralTable = ({ dni, bordered, size, scroll }) => {
-
   const [dataGeneral, setDataGeneral] = useState([]);
-
   const [loading, setLoading] = useState(true);
-
- 
   const columnsGeneral = [
     {
       title: 'ID',
@@ -185,13 +177,8 @@ const GeneralTable = ({ dni, bordered, size, scroll }) => {
           );
         }
       },
-    }
-    
-    
-    
+    } 
   ];
-
-
 
   useEffect(() => {
     const obtenerInformacionGeneral = async () => {
@@ -213,7 +200,7 @@ const GeneralTable = ({ dni, bordered, size, scroll }) => {
     };
   
     obtenerInformacionGeneral();
-  }, []);
+  }, [dni]);
   
   
   

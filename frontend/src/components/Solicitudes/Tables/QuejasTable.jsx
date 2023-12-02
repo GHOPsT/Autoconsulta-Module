@@ -4,18 +4,13 @@ import Highlighter from 'react-highlight-words'
 import { SearchOutlined } from '@ant-design/icons'
 import moment from 'moment';
 import * as XLSX from 'xlsx';
-
-
 import axios from 'axios';
-
 const QuejasTable = ({ dni , bordered, size, scroll }) => {
   const [dataQuejas, setDataQuejas] = useState([]);
-
   const [searchText, setSearchText] = useState('');
   const [searchedColumn, setSearchedColumn] = useState('');
   const [filteredData, setFilteredData] = useState(dataQuejas);
   const [loading, setLoading] = useState(true);
-
   const [visibleColumns, setVisibleColumns] = useState({
     id_queja: true,
     fecha_queja: true,
@@ -24,20 +19,13 @@ const QuejasTable = ({ dni , bordered, size, scroll }) => {
     comentario_queja: true,
     estado_queja: true,
   });
-
-  
-
-  
   const searchInput = useRef(null);
-
   const handleSearch = (value, dataIndex) => {
     setSearchText(value);
     setSearchedColumn(dataIndex);
-
     const filtered = dataQuejas.filter((record) =>
       record[dataIndex].toString().toLowerCase().includes(value.toLowerCase())
     );
-
     setFilteredData(filtered);
   };
 
@@ -218,13 +206,12 @@ const QuejasTable = ({ dni , bordered, size, scroll }) => {
     };
 
     obtenerQuejas();
-  }, []);
+  }, [dni]);
 
   const handleToggleColumn = (columnKey) => {
     setVisibleColumns((prev) => ({ ...prev, [columnKey]: !prev[columnKey] }));
   };
 
-  
   const exportToExcel = () => {
     // Filtrar las columnas visibles para la exportación
     const columnsToExport = columnsQuejas.filter((column) => !column.hidden);

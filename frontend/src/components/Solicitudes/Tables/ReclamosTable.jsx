@@ -5,21 +5,13 @@ import { SearchOutlined } from '@ant-design/icons';
 import axios from 'axios';
 import moment from 'moment';
 import * as XLSX from 'xlsx';
-
-
 import './Table.css'
-
-
 const ReclamosTable = ({ dni, bordered, size, scroll }) => {
-
   const [dataReclamos, setDataReclamos] = useState([]);
-
-
   const [searchText, setSearchText] = useState('');
   const [searchedColumn, setSearchedColumn] = useState('');
   const [filteredData, setFilteredData] = useState(dataReclamos);
   const [loading, setLoading] = useState(true);
-
   const [visibleColumns, setVisibleColumns] = useState({
     id_reclamo: true,
     fecha_reclamo: true,
@@ -32,18 +24,13 @@ const ReclamosTable = ({ dni, bordered, size, scroll }) => {
     fecha_respuesta_reclamo: false,
     area_asignada_reclamo: false,
   });
-
-
   const searchInput = useRef(null);
-
   const handleSearch = (value, dataIndex) => {
     setSearchText(value);
     setSearchedColumn(dataIndex);
-
     const filtered = dataReclamos.filter((record) =>
       record[dataIndex].toString().toLowerCase().includes(value.toLowerCase())
     );
-
     setFilteredData(filtered);
   };
 
@@ -273,7 +260,7 @@ const ReclamosTable = ({ dni, bordered, size, scroll }) => {
     
         // Llamada a la función para obtener quejas al montar el componente
         obtenerReclamos();
-      }, []); // Se ejecutará solo una vez al montar el componente
+      }, [dni]); // Se ejecutará solo una vez al montar el componente
 
 
       const handleToggleColumn = (columnKeys) => {
@@ -289,31 +276,24 @@ const ReclamosTable = ({ dni, bordered, size, scroll }) => {
       const exportToExcel = () => {
         const columnsToExport = columnsReclamos.filter((column) => !column.hidden);
         const dataToExport = searchText ? filteredData : dataReclamos;
-      
         const exportData = [columnsToExport.map(column => column.title), ...dataToExport.map(row =>
           columnsToExport.map(column => row[column.dataIndex])
         )];
       
         const workbook = XLSX.utils.book_new();
         const worksheet = XLSX.utils.aoa_to_sheet(exportData);
-      
         XLSX.utils.book_append_sheet(workbook, worksheet, 'ReclamosData');
-      
         XLSX.writeFile(workbook, 'reclamos_data.xlsx');
       };
 
 
 
   return (
-
     <Spin spinning={loading} tip="Cargando...">
-
       <div style={{ marginBottom: '1rem' }}>
-
           <Button onClick={() => handleToggleColumn(['prod_serv_reclamo', 'tipo_reclamo','fecha_respuesta_reclamo','area_asignada_reclamo'])}>
             VER MÁS
           </Button>
-
           <div style={{ display: 'inline-block', marginLeft: '1rem' }}>
             <Button onClick={exportToExcel}>
               Exportar a Excel

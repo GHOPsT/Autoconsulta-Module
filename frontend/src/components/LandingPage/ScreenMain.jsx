@@ -7,7 +7,7 @@ import { useState } from "react";
 import { Button, Layout, FloatButton } from "antd";
 import { Content, Header, Footer } from "antd/es/layout/layout";
 import { MenuUnfoldOutlined, MenuFoldOutlined, SettingOutlined } from "@ant-design/icons";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Solicitudes from "../Solicitudes/Solicitudes";
 import DatosUsuario from "../DatosUsuario/datosusuario";
 import LogoSim from "../../images/LogoSim.png";

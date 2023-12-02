@@ -33,7 +33,7 @@ const Encuesta = () => {
 
   const [mensaje, setMensaje] = useState('');
   const [estado, setEstado] = useState('inicio');
-  const [darkTheme, setDarkTheme] = useState(true);
+  const [darkTheme] = useState(true);
 
   const cambiarEstado = (nuevoEstado) => {
     setEstado(nuevoEstado);

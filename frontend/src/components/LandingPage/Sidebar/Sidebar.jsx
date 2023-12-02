@@ -1,5 +1,5 @@
 import { Menu }  from 'antd'
-import { HomeOutlined , AppstoreOutlined, BarsOutlined, FormOutlined} from '@ant-design/icons'
+import { HomeOutlined , AppstoreOutlined, BarsOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 
 const Sidebar = ({darkTheme}) => {

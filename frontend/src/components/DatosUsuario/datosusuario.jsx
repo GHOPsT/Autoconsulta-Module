@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Avatar, List, Breadcrumb, Row, Col, Card, Button } from 'antd';
-import { HomeOutlined } from '@ant-design/icons';
-import { Link } from 'react-router-dom';
+import { Avatar, List, Row, Col, Card, Button } from 'antd';
 import axios from 'axios';
 import { useContext } from 'react';
 import { DNIContext } from '../Autoregistro/Login/DNIContext';
@@ -49,7 +47,7 @@ const toggleTheme = () => setDarkTheme(!darkTheme);
     };
 
     obtenerDatosUsuario();
-  }, []);
+  }, [dni]);
 
   useEffect(() => {
     const obtenerDatosPlan = async () => {
@@ -67,7 +65,7 @@ const toggleTheme = () => setDarkTheme(!darkTheme);
     };
 
     obtenerDatosPlan();
-  }, []);
+  }, [dni]);
 
   // Divide los datos en dos columnas
   const half = Math.ceil(data.length / 2);

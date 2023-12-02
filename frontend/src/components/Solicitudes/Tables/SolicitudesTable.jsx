@@ -4,23 +4,14 @@ import Highlighter from 'react-highlight-words'
 import { SearchOutlined } from '@ant-design/icons'
 import moment from 'moment';
 import * as XLSX from 'xlsx';
-
-
 import axios from 'axios';
 import './Table.css';
-
-
-
-
 const SolicitudesTable = ({ dni , bordered, size, scroll }) => {
   const [dataSolicitudes, setDataSolicitudes] = useState([]);
-
-
   const [searchText, setSearchText] = useState('');
   const [searchedColumn, setSearchedColumn] = useState('');
   const [filteredData, setFilteredData] = useState(dataSolicitudes);
   const [loading, setLoading] = useState(true);
-
   const [visibleColumns, setVisibleColumns] = useState({
     id_solicitud: true,
     fecha_solicitud: true,
@@ -30,26 +21,19 @@ const SolicitudesTable = ({ dni , bordered, size, scroll }) => {
     comentario_solicitud: true,
     estado_solicitud: true,
   });
-
- 
   const searchInput = useRef(null);
-
   const handleSearch = (value, dataIndex) => {
     setSearchText(value);
     setSearchedColumn(dataIndex);
-
     const filtered = dataSolicitudes.filter((record) =>
       record[dataIndex].toString().toLowerCase().includes(value.toLowerCase())
     );
-
     setFilteredData(filtered);
   };
-
   const handleReset = () => {
     setSearchText('');
     setFilteredData(dataSolicitudes);
   };
-
   const getColumnSearchProps = (dataIndex) => ({
     filterDropdown: ({ setSelectedKeys, selectedKeys, confirm, clearFilters, close }) => (
       <div
@@ -217,7 +201,7 @@ const SolicitudesTable = ({ dni , bordered, size, scroll }) => {
     };
 
     obtenerSolicitudes();
-  }, []);
+  }, [dni]);
 
   const handleToggleColumn = (columnKeys) => {
     setVisibleColumns((prev) => {

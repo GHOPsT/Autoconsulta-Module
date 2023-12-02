@@ -1,6 +1,5 @@
 import React , {useState} from 'react'
 import './App.css';
-import { theme } from 'antd';
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import Register from './components/Autoregistro/Register/Register';
 import ScreenMain from './components/LandingPage/ScreenMain';
@@ -13,14 +12,6 @@ import { DNIContext } from '../src/components/Autoregistro/Login/DNIContext';
 
 function App() {
   const [dni, setDNI] = useState(null);
-
-  // Login
-  const [isLoggedIn, setIsLoggedIn] = useState(false)
-
-  const handleLogin = () => {
-    // Autenticacion correspondiente
-    setIsLoggedIn(true)
-  }
 
   return (
     <DNIContext.Provider value={{ dni, setDNI }}>
