@@ -8,11 +8,7 @@ const Sidebar = ({darkTheme}) => {
 
       <Menu.Item key='inicio' icon={<HomeOutlined/>}> <Link to='/screenmain'>Inicio</Link></Menu.Item>
       <Menu.Item key='miplan' icon={<AppstoreOutlined/>}><Link to='/detallesuser'>Mi plan</Link></Menu.Item>
-      <Menu.SubMenu key='historial' icon={<BarsOutlined/>} 
-        title='Historial'> 
-            <Menu.Item key='task-1'><Link to='/solicitudes'>Solicitudes</Link></Menu.Item>
-            <Menu.Item key='task-2'> Reclamos</Menu.Item>
-      </Menu.SubMenu>
+      <Menu.Item key='historial' icon={<BarsOutlined/>}><Link to='/solicitudes'>Solicitudes</Link></Menu.Item>
       <Menu.Item key='reclamos' icon={<AppstoreOutlined/>}><Link to='/reclamos'>Reclamos</Link></Menu.Item>
       <Menu.Item key='encuesta' icon={<FormOutlined/>}> <Link to='/encuesta'>Encuesta</Link></Menu.Item>
     </Menu>

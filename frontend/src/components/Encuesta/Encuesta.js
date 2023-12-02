@@ -61,7 +61,7 @@ const Encuesta = () => {
           <Layout>
             <Sider
               width={200}
-              theme={darkTheme ? 'dark' : 'light'}
+              theme="dark"
               className='sidebar'
               style={{ height: '100vh', position: 'fixed', left: 0 }}
             >

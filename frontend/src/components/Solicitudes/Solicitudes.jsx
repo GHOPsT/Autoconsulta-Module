@@ -85,7 +85,6 @@ const Solicitudes = ({ dni }) => {
     };
     
     
-
     const [selectedTab, setSelectedTab] = useState('General');
 
     const handleBorderChange = (enable) => {
@@ -111,11 +110,6 @@ const Solicitudes = ({ dni }) => {
     const handleTabChange = (key) => {
       setSelectedTab(key);
     };
-
-    
-
-
-
 
     const renderTabContent = () => {
       switch (selectedTab) {
