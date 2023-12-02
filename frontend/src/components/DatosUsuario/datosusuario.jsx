@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Avatar, List, Breadcrumb } from 'antd';
+import { Avatar, List, Breadcrumb, Row, Col } from 'antd';
 import { HomeOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -7,7 +7,7 @@ import { useContext } from 'react';
 import { DNIContext } from '../Autoregistro/Login/DNIContext';
 
 const DatosUsuario = () => {
-  const { dni } = useContext(DNIContext); // Aquí obtienes el DNI del usuario del contexto
+  const { dni } = useContext(DNIContext);
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -17,16 +17,15 @@ const DatosUsuario = () => {
         const respuesta = await axios.get(url);
         const datosUsuario = respuesta.data;
 
-        // Aquí puedes formatear los datos del usuario para que se ajusten al formato de tu lista
         const datosFormateados = [
           { title: 'DNI', description: datosUsuario.dni },
-          { title: 'Usuario', description: datosUsuario.usuario },
           { title: 'Nombre', description: datosUsuario.nombre },
-          { title: 'Nombre', description: datosUsuario.nombre },
-          { title: 'Nombre', description: datosUsuario.nombre },
-          { title: 'Nombre', description: datosUsuario.nombre },
-          { title: 'Nombre', description: datosUsuario.nombre },
-          // Agrega aquí el resto de los datos del usuario
+          { title: 'Apellidos', description: datosUsuario.apellido },
+          { title: 'Fecha de Nacimiento', description: new Date(datosUsuario.fechanac).toLocaleDateString() },
+          { title: 'Telefono', description: datosUsuario.telefono },
+          { title: 'Correo', description: datosUsuario.correo },
+          { title: 'Departamento', description: datosUsuario.departamento },
+          { title: 'Distrito', description: datosUsuario.distrito }
         ];
 
         setData(datosFormateados);
@@ -38,6 +37,11 @@ const DatosUsuario = () => {
     obtenerDatosUsuario();
   }, []);
 
+  // Divide los datos en dos columnas
+  const half = Math.ceil(data.length / 2);
+  const data1 = data.slice(0, half);
+  const data2 = data.slice(half);
+
   return (
     <div className="detallesuser">
       <Breadcrumb>
@@ -48,21 +52,42 @@ const DatosUsuario = () => {
         </Breadcrumb.Item>
         <Breadcrumb.Item>Mi Plan</Breadcrumb.Item>
       </Breadcrumb>
-      <List
-        itemLayout="horizontal"
-        dataSource={data}
-        renderItem={(item, index) => (
-          <List.Item>
-            <List.Item.Meta
-              avatar={
-                <Avatar src={`https://xsgames.co/randomusers/avatar.php?g=pixel&key=${index}`} />
-              }
-              title={<a href="https://ant.design">{item.title}</a>}
-              description={item.description}
-            />
-          </List.Item>
-        )}
-      />
+      <Row gutter={16}>
+        <Col span={12}>
+          <List
+            itemLayout="horizontal"
+            dataSource={data1}
+            renderItem={(item, index) => (
+              <List.Item>
+                <List.Item.Meta
+                  avatar={
+                    <Avatar src={`https://xsgames.co/randomusers/avatar.php?g=pixel&key=${index}`} />
+                  }
+                  title={<a href="https://ant.design">{item.title}</a>}
+                  description={item.description}
+                />
+              </List.Item>
+            )}
+          />
+        </Col>
+        <Col span={12}>
+          <List
+            itemLayout="horizontal"
+            dataSource={data2}
+            renderItem={(item, index) => (
+              <List.Item>
+                <List.Item.Meta
+                  avatar={
+                    <Avatar src={`https://xsgames.co/randomusers/avatar.php?g=pixel&key=${index}`} />
+                  }
+                  title={<a href="https://ant.design">{item.title}</a>}
+                  description={item.description}
+                />
+              </List.Item>
+            )}
+          />
+        </Col>
+      </Row>
     </div>
   );
 };

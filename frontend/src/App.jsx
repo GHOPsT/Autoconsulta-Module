@@ -28,7 +28,7 @@ function App() {
           <Route path = '/' element={<Login />} />
           <Route path = '/register' element={<Register />} />
           <Route path = '/screenmain' element={<ScreenMain/>} />
-          <Route path = '/solicitudes' element={<Solicitudes/>} />
+          <Route path = '/solicitudes' element={<Solicitudes dni={dni}/>} />
           <Route path = '/detallesuser' element={<DatosUsuario/>} />
           <Route path = '/encuesta' element={<Encuesta/>} />
         </Routes>

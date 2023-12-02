@@ -5,9 +5,20 @@
   text-align: center;
   margin-bottom: 1rem;
 }
-.solicitudes-container .options-container {
+.solicitudes-container .panel-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.solicitudes-container .panel-container .options-container {
   padding: 0.5rem;
 }
-.solicitudes-container .options-container h2 {
+.solicitudes-container .panel-container .options-container h2 {
+  margin-bottom: 0.5rem;
+}
+.solicitudes-container .panel-container .update-container {
+  padding: 0.5rem;
+}
+.solicitudes-container .panel-container .update-container h2 {
   margin-bottom: 0.5rem;
 }/*# sourceMappingURL=Solicitudes.css.map */

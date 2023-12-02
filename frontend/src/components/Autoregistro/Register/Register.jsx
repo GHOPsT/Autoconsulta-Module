@@ -66,6 +66,7 @@ const RegisterUser = async (values) => {
             console.log('Usuario registrado con éxito:', respuestaRegistro);
 
             // Aquí puedes manejar la respuesta del backend según tus necesidades
+
         } else {
             console.log('El DNI no existe. No se puede registrar al usuario.');
             // Aquí puedes mostrar un mensaje de error o realizar otras acciones según tus necesidades

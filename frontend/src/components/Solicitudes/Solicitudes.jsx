@@ -1,10 +1,8 @@
-import React , { useState } from 'react'
+import React, { useState } from 'react';
 import DesignOptions from './DesignOptions';
-import { Card , Layout, Tabs} from 'antd';
-import { Breadcrumb } from 'antd';
+import { Button, Card, Layout, Tabs , Breadcrumb} from 'antd';
 import { HomeOutlined, UserOutlined, MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons';
-import { Link } from 'react-router-dom';
-import './Solicitudes.css'
+import './Solicitudes.css';
 import GeneralTable from './Tables/GeneralTable';
 import QuejasTable from './Tables/QuejasTable.jsx';
 import SolicitudesTable from './Tables/SolicitudesTable';
@@ -12,9 +10,12 @@ import ReclamosTable from './Tables/ReclamosTable.jsx';
 import Logo from '../LandingPage/Sidebar/Logo.jsx';
 import Sidebar from '../LandingPage/Sidebar/Sidebar.jsx';
 import Sider from 'antd/es/layout/Sider.js';
-import { Content, Header, Footer } from 'antd/es/layout/layout.js';
-const Solicitudes = () => {
+import { Content, Header, Footer } from 'antd/es/layout/layout.js'
+import axios from 'axios'
+
+const Solicitudes = ({ dni }) => {
   const [collapsed, setCollapsed] = useState(false);
+
 
   const toggleSidebar = () => {
     setCollapsed(!collapsed);
@@ -47,6 +48,44 @@ const Solicitudes = () => {
     const [xScroll, setXScroll] = useState();
 
 
+    const [loadings, setLoadings] = useState([]);
+
+
+    const enterLoading = async () => {
+    
+        // Realizar la inserción de quejas si aún no se han cargado
+          const urlQuejas = `http://localhost:3002/insertar-quejas/${dni}`;
+          const respuestaQuejas = await axios.get(urlQuejas);
+    
+          if (respuestaQuejas.data.success) {
+            console.log('Inserción de quejas exitosa:', respuestaQuejas.data.message);
+          } else {
+            console.error('Error en la inserción de quejas:', respuestaQuejas.data.message);
+          }
+    
+        // Realizar la inserción de reclamos si aún no se han cargado
+          const urlReclamos = `http://localhost:3002/insertar-reclamos/${dni}`;
+          const respuestaReclamos = await axios.get(urlReclamos);
+    
+          if (respuestaReclamos.data.success) {
+            console.log('Inserción de reclamos exitosa:', respuestaReclamos.data.message);
+          } else {
+            console.error('Error en la inserción de reclamos:', respuestaReclamos.data.message);
+          }
+    
+        // Realizar la inserción de solicitudes si aún no se han cargado
+          const urlSolicitudes = `http://localhost:3002/insertar-solicitudes/${dni}`;
+          const respuestaSolicitudes = await axios.get(urlSolicitudes);
+    
+          if (respuestaSolicitudes.data.success) {
+            console.log('Inserción de solicitudes exitosa:', respuestaSolicitudes.data.message);
+          } else {
+            console.error('Error en la inserción de solicitudes:', respuestaSolicitudes.data.message);
+          }
+    };
+    
+    
+
     const [selectedTab, setSelectedTab] = useState('General');
 
     const handleBorderChange = (enable) => {
@@ -73,16 +112,21 @@ const Solicitudes = () => {
       setSelectedTab(key);
     };
 
+    
+
+
+
+
     const renderTabContent = () => {
       switch (selectedTab) {
         case 'General':
-          return <GeneralTable bordered={bordered} size={size} scroll={scroll} />;
+          return <GeneralTable  dni={dni} bordered={bordered} size={size} scroll={scroll} />;
         case 'Quejas':
-          return <QuejasTable bordered={bordered} size={size} scroll={scroll} />;
+          return <QuejasTable dni={dni} bordered={bordered} size={size} scroll={scroll} />;
         case 'Solicitudes':
-          return <SolicitudesTable bordered={bordered} size={size} scroll={scroll} />;
+          return <SolicitudesTable dni={dni} bordered={bordered} size={size} scroll={scroll} />;
         case 'Reclamos':
-          return <ReclamosTable bordered={bordered} size={size} scroll={scroll} />;
+          return <ReclamosTable dni={dni} bordered={bordered} size={size} scroll={scroll} />;
         default:
           return null;
       }
@@ -117,20 +161,31 @@ const Solicitudes = () => {
       {/* Sección de Encabezado */}
       <h1>HISTORIAL DE SOLICITUDES</h1>
 
-      {/* Sección de Opciones de Diseño */}
-      <div className="options-container">
-        <h2>Opciones de diseño:</h2>
-        <DesignOptions
-          bordered={bordered}
-          size={size}
-          yScroll={yScroll}
-          xScroll={xScroll}
-          onBorderChange={handleBorderChange}
-          onSizeChange={handleSizeChange}
-          onXScrollChange={handleXScrollChange}
-        />
-      </div>
+      <div className="panel-container">
+          {/* Sección de Opciones de Diseño */}
+          <div className="options-container">
+              <h2>Opciones de diseño:</h2>
+              <DesignOptions
+                bordered={bordered}
+                size={size}
+                yScroll={yScroll}
+                xScroll={xScroll}
+                onBorderChange={handleBorderChange}
+                onSizeChange={handleSizeChange}
+                onXScrollChange={handleXScrollChange}
+              />
+            </div>
 
+          {/*Seccion del boton de update*/}
+            <div className="update-container">
+            <Button type="primary" loading={loadings[0]} onClick={() => enterLoading()}>
+                Actualizar datos
+            </Button>
+
+            </div>
+
+      </div>
+      
       <Card>
       <div class='card-body'>
 
